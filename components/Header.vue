@@ -32,13 +32,13 @@
     </nav>
     <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
         <div class="px-2 pt-2 pb-3 sm:px-3 bg-primary">
-            <nuxt-link to="/about" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">About
+            <nuxt-link to="/about" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">About
             </nuxt-link>
-            <nuxt-link to="/blog" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">Blog
+            <nuxt-link to="/blog" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">Blog
             </nuxt-link>
-            <nuxt-link to="/community" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">
+            <nuxt-link to="/community" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Community</nuxt-link>
-            <nuxt-link to="/contact" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">
+            <nuxt-link to="/contact" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Contact</nuxt-link>
         </div>
     </div>

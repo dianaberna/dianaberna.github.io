@@ -9,9 +9,9 @@
           <img src="~/assets/community/vuejsitalia.jpg" class="">
           <p class="text-gray-700 font-bold">VueJsItalia</p>
         </div>
-        <div>2</div>
-        <div>3</div>
-        <div>9</div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
   </div>
 </template>
