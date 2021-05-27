@@ -4,7 +4,7 @@
       <h3 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Benvenuto/a nel mio blog</h3>
     </div>
     <Search />
-    <div class="my-10 border-gray-900 border-2 p-4 md:p-6 rounded-xl " v-for="post of posts.reverse()" :key="post.slug">
+    <div class="my-10 border-gray-900 border-2 p-4 md:p-6 rounded-xl " v-for="post of posts" :key="post.slug">
       <div class="flex justify-between items-center">
         <span class="font-semibold text-gray-600 text-sm">{{ formatDate(post.createdAt) }}</span>
         <span class="px-3 py-1 text-white text-sm font-bold rounded bg-pink-600">#{{ post.tag }}</span>
@@ -47,7 +47,3 @@ export default {
   },
 };
 </script>
-
-<style>
-
-</style>

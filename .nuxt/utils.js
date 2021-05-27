@@ -168,7 +168,7 @@ export async function setContext (app, context) {
 
       payload: context.payload,
       error: context.error,
-      base: '/',
+      base: '/dianaberna.github.io/',
       env: {}
     }
     // Only set once

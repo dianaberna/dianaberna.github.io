@@ -6,8 +6,8 @@
           </div>
           <div class="flex flex-col justify-between max-w-lg mx-auto">
               <div class="txt md:px-5 lg:px-0">
-              <h2 class="text-xl font-semibold text-gray-800">Vita Creat(t)tiva di Stefania De Cristofaro</h2>
-              <p class="text-base text-gray-700 my-3">Stefania è un arteterapeuta e nel suo sito parla del suo lavoro, pubblica blogpost e nuovi eventi che organizza. 
+              <h2 class="text-xl font-semibold text-gray-800">Vita Crea(t)tiva di Stefania De Cristofaro</h2>
+              <p class="text-base text-gray-700 my-3">Stefania è un'arteterapeuta e nel suo sito parla del suo lavoro, pubblica blogpost e nuovi eventi che organizza. 
                   Ogni elemento grafico è stato accuratamente studiato visto che il suo lavoro si basa sulle forme e i colori.</p> 
               </div>
           <div>
@@ -45,7 +45,3 @@ export default {
 
 }
 </script>
-
-<style>
-
-</style>

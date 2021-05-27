@@ -9,11 +9,10 @@
           </div>
       
           <div class="navbar hidden md:block">
-            <!--<nuxt-link class="nav-link hover:text-primary" to="portfolio">Portfolio</nuxt-link>-->
-            <nuxt-link class="nav-link" to="about">About</nuxt-link>
-            <nuxt-link class="nav-link " to="blog">Blog</nuxt-link>
-            <nuxt-link class="nav-link " to="community">Community</nuxt-link>
-            <nuxt-link class="nav-link " to="contact">Contact</nuxt-link>
+            <nuxt-link class="nav-link" to="/about">About</nuxt-link>
+            <nuxt-link class="nav-link " to="/blog">Blog</nuxt-link>
+            <nuxt-link class="nav-link " to="/community">Community</nuxt-link>
+            <nuxt-link class="nav-link " to="/contact">Contact</nuxt-link>
           </div>
 
           <div class="ml-3 flex md:hidden">
@@ -33,15 +32,13 @@
     </nav>
     <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
         <div class="px-2 pt-2 pb-3 sm:px-3 bg-primary">
-            <nuxt-link to="portfolio" class="mobile-link focus:outline-none hover:text-gray-700">Portfolio
+            <nuxt-link to="/about" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">About
             </nuxt-link>
-            <nuxt-link to="about" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">About
+            <nuxt-link to="/blog" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">Blog
             </nuxt-link>
-            <nuxt-link to="blog" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">Blog
-            </nuxt-link>
-            <nuxt-link to="community" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">
+            <nuxt-link to="/community" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">
               Community</nuxt-link>
-            <nuxt-link to="contact" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">
+            <nuxt-link to="/contact" class="mt-1 mobile-link focus:outline-none hover:text-gray-700">
               Contact</nuxt-link>
         </div>
     </div>
@@ -71,58 +68,57 @@
 </script>
 
 <style>
-    
-    body{
-       font-family: poppins, sans-serif;
-    }
-    .mobile-link{
-      @apply block px-3 py-2 text-lg text-gray-700 rounded-md text-white font-medium text-center;
-    }
-    .nav-link{
-      @apply ml-12 font-medium text-lg text-gray-700;
-    }
-    .font-rubik {
-      font-family: rubik, sans-serif;
-    }
+  body{
+      font-family: poppins, sans-serif;
+  }
+  .mobile-link{
+    @apply block px-3 py-2 text-lg text-gray-700 rounded-md text-white font-medium text-center;
+  }
+  .nav-link{
+    @apply ml-12 font-medium text-lg text-gray-700;
+  }
+  .font-rubik {
+    font-family: rubik, sans-serif;
+  }
 
-    .nav-link{
-      font-family: rubik, sans-serif;
-      font-weight: 500;
-    }
-    .nav-link {
-      font-size: 20px;
-      position: relative;
-      text-transform: uppercase;
-      text-decoration: none;
-      padding-bottom: 8px;
-    }
-    .nav-link:before, .nav-link:after {
-      content: "";
-      position: absolute;
-      bottom: 2px;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background-color: #d53f8c;
-    }
-    .nav-link:before {
-      opacity: 0;
-      transform: translateY(-8px);
-      transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
-    }
-    .nav-link:after {
-      opacity: 0;
-      transform: translateY(4px);
-      transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
-    }
-    .nav-link:hover:before, .nav-link:hover:after, .nav-link:focus:before, .nav-link:focus:after {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    .nav-link:hover:before, .nav-link:focus:before {
-      transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
-    }
-    .nav-link:hover:after, .nav-link:focus:after {
-      transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
-    }
+  .nav-link{
+    font-family: rubik, sans-serif;
+    font-weight: 500;
+  }
+  .nav-link {
+    font-size: 20px;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 8px;
+  }
+  .nav-link:before, .nav-link:after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #d53f8c;
+  }
+  .nav-link:before {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+  }
+  .nav-link:after {
+    opacity: 0;
+    transform: translateY(4px);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  }
+  .nav-link:hover:before, .nav-link:hover:after, .nav-link:focus:before, .nav-link:focus:after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .nav-link:hover:before, .nav-link:focus:before {
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  }
+  .nav-link:hover:after, .nav-link:focus:after {
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+  }
 </style>

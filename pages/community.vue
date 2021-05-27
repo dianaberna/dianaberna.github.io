@@ -22,13 +22,12 @@ export default {
 }
 </script>
 
-<style>
-  
-    .credit-item{
-        @apply text-lg mb-5 text-gray-800 font-semibold;
-    }
+<style scoped>
+  .credit-item{
+      @apply text-lg mb-5 text-gray-800 font-semibold;
+  }
 
-    .credit-link{
-        @apply text-primary;
-    }
+  .credit-link{
+      @apply text-primary;
+  }
 </style>

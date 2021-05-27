@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style>
-    .social-link{
-        @apply mx-2 text-3xl text-gray-800;
-    }
+  .social-link{
+      @apply mx-2 text-3xl text-gray-800;
+  }
 </style>
