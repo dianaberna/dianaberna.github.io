@@ -1,0 +1,58 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_ad8f8b42"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_d391e180"
+  },
+  {
+    "name": "community",
+    "path": "/community",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/community.vue",
+    "chunkName": "pages/community",
+    "_name": "_55d2688a"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_3e8ff2f2"
+  },
+  {
+    "name": "credits",
+    "path": "/credits",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/credits.vue",
+    "chunkName": "pages/credits",
+    "_name": "_2b17b66c"
+  },
+  {
+    "name": "portfolio",
+    "path": "/portfolio",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/portfolio.vue",
+    "chunkName": "pages/portfolio",
+    "_name": "_69124ccc"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6e1fd5b8"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_718d1848"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "Footer": {
+    "description": "Auto imported from /components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from /components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "Hero": {
+    "description": "Auto imported from /components/Hero.vue"
+  },
+  "LazyHero": {
+    "description": "Auto imported from /components/Hero.vue"
+  },
+  "Projects": {
+    "description": "Auto imported from /components/Projects.vue"
+  },
+  "LazyProjects": {
+    "description": "Auto imported from /components/Projects.vue"
+  },
+  "Search": {
+    "description": "Auto imported from /components/Search.vue"
+  },
+  "LazySearch": {
+    "description": "Auto imported from /components/Search.vue"
+  },
+  "Social": {
+    "description": "Auto imported from /components/Social.vue"
+  },
+  "LazySocial": {
+    "description": "Auto imported from /components/Social.vue"
+  },
+  "TechStack": {
+    "description": "Auto imported from /components/TechStack.vue"
+  },
+  "LazyTechStack": {
+    "description": "Auto imported from /components/TechStack.vue"
+  }
+}

@@ -4,7 +4,7 @@
       <div class="md:py-10">
             <div class="flex flex-col items-center justify-between mt-6 md:mt-0 md:flex-row">
                 <div>
-                    <nuxt-link to="index">
+                    <nuxt-link to="/">
                         <p class="text-gray-700 font-semibold"> Diana Bernabei P.IVA 02430130449</p>
                     </nuxt-link>
                     <nuxt-link to="credits" class="text-gray-700 font-semibold">Credits</nuxt-link>
