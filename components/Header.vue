@@ -10,9 +10,9 @@
       
           <div class="navbar hidden md:block">
             <nuxt-link class="nav-link" to="/about">About</nuxt-link>
-            <nuxt-link class="nav-link " to="/blog">Blog</nuxt-link>
-            <nuxt-link class="nav-link " to="/community">Community</nuxt-link>
-            <nuxt-link class="nav-link " to="/contact">Contact</nuxt-link>
+            <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
+            <nuxt-link class="nav-link" to="/community">Community</nuxt-link>
+            <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
           </div>
 
           <div class="ml-3 flex md:hidden">
@@ -30,6 +30,7 @@
           </div>
       </div>
     </nav>
+
     <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
         <div class="px-2 pt-2 pb-3 sm:px-3 bg-primary">
             <nuxt-link to="/about" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">About
@@ -44,21 +45,13 @@
     </div>
   </div>
 </template>
-
-
 <script>
-
   export default {
-    components:{
-      
-    },
-
     data() {
       return {
         isOpen: false
       }
     },
-
     methods: {
       toggle() {
         this.isOpen = !this.isOpen

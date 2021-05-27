@@ -1,8 +1,8 @@
 ---
-title: Risorse utili per scoprire il mondo dell'accessibilità
+title: secondo
 description: Breve elenco delle principali risorse dedicate all'accessibilità nel web sia in inglese che in italiano.
 tag: accessibilità
-publicationDate: 2021-05-28T00:00:00+01:00
+publicationDate: 2021-05-26T00:00:00+01:00
 ---
 
 <p className="lead">

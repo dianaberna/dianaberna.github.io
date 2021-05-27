@@ -9,11 +9,7 @@
 </template>
 
 <script>
-
 export default {
-  components:{
-    
-  },
   methods:{
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -22,24 +18,19 @@ export default {
   },
 
   async asyncData({ $content, params, error }) {
-    let post;
-    try {
-      post = await $content("blog", params.slug).fetch();
-      // OR const article = await $content(`articles/${params.slug}`).fetch()
-    } catch (e) {
-      error({ message: "404 page not found" });
-    }
-
+    const post = await $content("blog", params.slug).fetch()
+      .catch(() => error({ message: "404 page not found" }))
+    
     return {
       post,
-    };
+    }
   },
-};
+}
 </script>
 
-<style>
+<style lang="postcss">
     .prose a{
-      @apply text-primary  font-semibold;
+      @apply text-primary font-semibold;
     }
 
     .prose li{

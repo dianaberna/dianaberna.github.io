@@ -5,13 +5,13 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _ad8f8b42 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _d391e180 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
+const _c869b47a = () => interopDefault(import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */))
 const _55d2688a = () => interopDefault(import('../pages/community.vue' /* webpackChunkName: "pages/community" */))
 const _3e8ff2f2 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _2b17b66c = () => interopDefault(import('../pages/credits.vue' /* webpackChunkName: "pages/credits" */))
 const _69124ccc = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
+const _cbd6f70a = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
 const _6e1fd5b8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _718d1848 = () => interopDefault(import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -35,7 +35,7 @@ export const routerOptions = {
     name: "about"
   }, {
     path: "/blog",
-    component: _d391e180,
+    component: _c869b47a,
     name: "blog"
   }, {
     path: "/community",
@@ -54,13 +54,13 @@ export const routerOptions = {
     component: _69124ccc,
     name: "portfolio"
   }, {
+    path: "/blog/:slug",
+    component: _cbd6f70a,
+    name: "blog-slug"
+  }, {
     path: "/",
     component: _6e1fd5b8,
     name: "index"
-  }, {
-    path: "/:slug",
-    component: _718d1848,
-    name: "slug"
   }],
 
   fallback: false

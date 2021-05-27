@@ -9,9 +9,9 @@
   {
     "name": "blog",
     "path": "/blog",
-    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/blog.vue",
-    "chunkName": "pages/blog",
-    "_name": "_d391e180"
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/blog/index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_c869b47a"
   },
   {
     "name": "community",
@@ -42,17 +42,17 @@
     "_name": "_69124ccc"
   },
   {
+    "name": "blog-slug",
+    "path": "/blog/:slug",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/blog/_slug.vue",
+    "chunkName": "pages/blog/_slug",
+    "_name": "_cbd6f70a"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_6e1fd5b8"
-  },
-  {
-    "name": "slug",
-    "path": "/:slug",
-    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/_slug.vue",
-    "chunkName": "pages/_slug",
-    "_name": "_718d1848"
   }
 ]

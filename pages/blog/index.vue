@@ -3,7 +3,7 @@
     <div class="text-center mt-2 border-b-2 pb-3">
       <h3 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Benvenuto/a nel mio blog</h3>
     </div>
-    <!--<Search />-->
+    <Search placeholder="Search posts" @search="onSearch"/>
     <div class="my-10 border-gray-900 border-2 p-4 md:p-6 rounded-xl " v-for="post of posts" :key="post.slug">
       <div class="flex justify-between items-center">
         <span class="font-semibold text-gray-600 text-sm">{{ formatDate(post.createdAt) }}</span>
@@ -11,7 +11,7 @@
       </div>
 
       <div class="mt-2">
-        <nuxt-link :to="post.slug"
+        <nuxt-link :to="`/blog/${post.slug}`"
           class="text-xl md:text-2xl text-gray-700 font-bold hover:text-gray-600 hover:underline">{{ post.title }}
         </nuxt-link>
         <p class="mt-2 text-base lg:text-lg text-gray-700">{{ post.description }}</p>
@@ -25,21 +25,26 @@
 </template>
 
 <script>
-//import Search from '../components/Search.vue'
+import Search from '../../components/Search.vue'
 export default {
   components:{
-    //Search
+    Search
   },
   methods:{
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
+    },
+    async onSearch(searchQuery) {
+      this.posts = await this.$content("blog")
+      .limit(6)
+      .search(searchQuery)
+      .fetch()
     }
   },
 
-
    async asyncData({ $content }) {
-    const posts = await $content("blog").fetch();
+    const posts = await $content("blog").fetch()
 
     return {
       posts,
