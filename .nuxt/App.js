@@ -3,7 +3,6 @@ import Vue from 'vue'
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
 import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
-import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../node_modules/@nuxtjs/tailwindcss/lib/files/tailwind.css'
 
@@ -48,7 +47,7 @@ export default {
       }
     }, [
       loadingEl,
-      h(NuxtBuildIndicator),
+
       transitionEl
     ])
   },
@@ -86,6 +85,15 @@ export default {
 
   async mounted () {
     this.$loading = this.$refs.loading
+
+    if (this.isPreview) {
+      if (this.$store && this.$store._actions.nuxtServerInit) {
+        this.$loading.start()
+        await this.$store.dispatch('nuxtServerInit', this.context)
+      }
+      await this.refresh()
+      this.$loading.finish()
+    }
   },
 
   watch: {
@@ -188,10 +196,6 @@ export default {
     },
 
     setLayout (layout) {
-      if(layout && typeof layout !== 'string') {
-        throw new Error('[nuxt] Avoid using non-string value as layout property.')
-      }
-
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }
@@ -205,6 +209,49 @@ export default {
       }
       return Promise.resolve(layouts['_' + layout])
     },
+
+    getRouterBase() {
+      return (this.$router.options.base || '').replace(/\/+$/, '')
+    },
+    getRoutePath(route = '/') {
+      const base = this.getRouterBase()
+      if (base && route.startsWith(base)) {
+        route = route.substr(base.length)
+      }
+      return (route.replace(/\/+$/, '') || '/').split('?')[0].split('#')[0]
+    },
+    getStaticAssetsPath(route = '/') {
+      const { staticAssetsBase } = window.__NUXT__
+
+      return urlJoin(staticAssetsBase, this.getRoutePath(route))
+    },
+
+      async fetchStaticManifest() {
+      return window.__NUXT_IMPORT__('manifest.js', encodeURI(urlJoin(this.getStaticAssetsPath(), 'manifest.js')))
+    },
+
+    setPagePayload(payload) {
+      this._pagePayload = payload
+      this._payloadFetchIndex = 0
+    },
+    async fetchPayload(route) {
+      const manifest = await this.fetchStaticManifest()
+      const path = this.getRoutePath(route)
+      if (!manifest.routes.includes(path)) {
+        this.setPagePayload(false)
+        throw new Error(`Route ${path} is not pre-rendered`)
+      }
+
+      const src = urlJoin(this.getStaticAssetsPath(route), 'payload.js')
+      try {
+        const payload = await window.__NUXT_IMPORT__(decodeURI(route), encodeURI(src))
+        this.setPagePayload(payload)
+        return payload
+      } catch (err) {
+        this.setPagePayload(false)
+        throw err
+      }
+    }
   },
 
   components: {
