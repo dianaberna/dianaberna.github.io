@@ -10,11 +10,11 @@ export default {
     htmlAttrs: {
       lang: 'it'
     },
-    title: 'Diana Bernabei',
+    title: 'Diana Bernabei - Frontend Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Sono una sviluppatrice web e UI designer. Passionate community&communication  ' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' },

@@ -6,20 +6,20 @@
     <Search placeholder="Search posts" @search="onSearch"/>
     <div class="my-10 border-gray-900 border-2 p-4 md:p-6 rounded-xl " v-for="post of posts" :key="post.slug">
       <div class="flex justify-between items-center">
-        <span class="font-semibold text-gray-600 text-sm">{{ formatDate(post.createdAt) }}</span>
-        <span class="px-3 py-1 text-white text-sm font-bold rounded bg-pink-600">#{{ post.tag }}</span>
+        <span class="font-medium text-gray-600 text-sm">{{ formatDate(post.createdAt) }}</span>
+        <span class="px-3 py-1 text-white font-light rounded bg-pink-600">#{{ post.tag }}</span>
       </div>
 
       <div class="mt-2">
         <nuxt-link :to="`/blog/${post.slug}`"
           class="text-xl md:text-2xl text-gray-700 font-bold hover:text-gray-600 hover:underline">{{ post.title }}
         </nuxt-link>
-        <p class="mt-2 text-base lg:text-lg text-gray-700">{{ post.description }}</p>
+        <p class="mt-2 text-medium lg:text-lg text-gray-700">{{ post.description }}</p>
       </div>
 
-      <div class=" mt-4">
+      <!--<div class=" mt-4">
         <nuxt-link :to="`/blog/${post.slug}`" class="text-primary font-semibold hover:underline">Read more</nuxt-link>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>

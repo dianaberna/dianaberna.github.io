@@ -2,25 +2,25 @@
   <div class="wrapper-small md:px-10">
       <div class="text-center mt-2 border-b-2 pb-3">
         <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Rimaniamo in contatto</h2>
-        <h3 class="text-gray-600 font-semibold">Puoi compilare il seguente form oppure prenotare una consulenza gratuita di 30 minuti.</h3>
+        <h3 class="text-gray-700 font-regular">Puoi compilare il seguente form oppure prenotare una consulenza gratuita di 30 minuti.</h3>
       </div>
 
-      <div class="my-10 mx-auto text-gray-900">
+      <div class="my-10 mx-auto text-gray-800">
           <form class="max-w-xl mx-auto" action="" method="post">
                 <div>
-                  <span class="uppercase text-sm text-gray-600 font-bold">Nome</span>
+                  <label for="name" class="uppercase text-sm font-bold">Nome</label>
                   <input class="w-full border-2 border-gray-400 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                    type="text" placeholder="">
+                    type="text" name="name" placeholder="">
                 </div>
                 <div class="mt-8">
-                  <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
+                  <label for="email" class="uppercase text-sm  font-bold">Email</label>
                   <input class="w-full border-2 border-gray-400 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                    type="text">
+                    type="text" name="email">
                 </div>
                 <div class="mt-8">
-                  <span class="uppercase text-sm text-gray-600 font-bold">Messaggio</span>
+                  <label for="messaggio" class="uppercase text-sm font-bold">Messaggio</label>
                   <textarea
-                    class="w-full h-32 border-2 border-gray-400 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                    id="messaggio" class="w-full h-32 border-2 border-gray-400 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                 </div>
                 <div class="mt-8">
                   <div class='has-tooltip'>
@@ -33,8 +33,8 @@
       </div>
       
       <div class="max-w-xl mx-auto">
-          <p class="text-center -mt-8 py-5">Oppure</p>
-          <button class="text-sm font-bold tracking-wide text-gray-100 bg-pink-800 p-3 rounded-full w-full focus:outline-none focus:shadow-outline " onclick="https://calendly.com/diana-bernabei/consulenza-gratuita">
+          <p class="text-center text-gray-800 -mt-8 py-5">Oppure</p>
+          <button class="text-sm font-regular tracking-wide text-gray-100 bg-pink-800 p-3 rounded-full w-full focus:outline-none focus:shadow-outline " onclick="https://calendly.com/diana-bernabei/consulenza-gratuita">
           <p>Prenota una consulenza gratuita di 30 minuti</p>
         </button>
       </div>
