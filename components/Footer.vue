@@ -7,7 +7,7 @@
                     <nuxt-link to="/">
                         <p class="text-gray-700 font-semibold"> Diana Bernabei P.IVA 02430130449</p>
                     </nuxt-link>
-                    <nuxt-link to="credits" class="text-gray-700 font-semibold">Credits</nuxt-link>
+                    <nuxt-link to="/credits" class="text-gray-700 font-semibold">Credits</nuxt-link>
                 </div>
                 <div>
                     <Social />

@@ -18,7 +18,7 @@
       </div>
 
       <div class=" mt-4">
-        <nuxt-link :to="post.slug" class="text-primary font-semibold hover:underline">Read more</nuxt-link>
+        <nuxt-link :to="`/blog/${post.slug}`" class="text-primary font-semibold hover:underline">Read more</nuxt-link>
       </div>
     </div>
   </div>
