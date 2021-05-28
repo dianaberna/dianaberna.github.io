@@ -9,7 +9,6 @@ const _c869b47a = () => interopDefault(import('../pages/blog/index.vue' /* webpa
 const _55d2688a = () => interopDefault(import('../pages/community.vue' /* webpackChunkName: "pages/community" */))
 const _3e8ff2f2 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _2b17b66c = () => interopDefault(import('../pages/credits.vue' /* webpackChunkName: "pages/credits" */))
-const _69124ccc = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
 const _cbd6f70a = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
 const _6e1fd5b8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -24,7 +23,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/dianaberna.github.io/',
+  base: '/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
@@ -49,10 +48,6 @@ export const routerOptions = {
     path: "/credits",
     component: _2b17b66c,
     name: "credits"
-  }, {
-    path: "/portfolio",
-    component: _69124ccc,
-    name: "portfolio"
   }, {
     path: "/blog/:slug",
     component: _cbd6f70a,

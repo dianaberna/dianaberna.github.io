@@ -17,10 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { hid: 'icon', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { hid: 'icon', rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600@1&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap' }
+      { rel: 'icon', type: 'image/png', href: '/icon.png' },
     ]
   },
 
@@ -40,11 +37,15 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    'nuxt-rfg-icon',
+    '@nuxtjs/manifest',
+    ['nuxt-rfg-icon', { masterPicture: 'static/icon.png' }],
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

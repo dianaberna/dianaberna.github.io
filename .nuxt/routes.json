@@ -30,12 +30,6 @@
     "chunkName": "pages/credits"
   },
   {
-    "name": "portfolio",
-    "path": "/portfolio",
-    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/portfolio.vue",
-    "chunkName": "pages/portfolio"
-  },
-  {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/blog/_slug.vue",
