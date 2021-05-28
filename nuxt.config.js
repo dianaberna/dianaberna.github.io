@@ -2,11 +2,14 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   router: {
-    base: '/dianaberna.github.io/'
+    base: '/'
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: {
+      lang: 'it'
+    },
     title: 'Diana Bernabei',
     meta: [
       { charset: 'utf-8' },

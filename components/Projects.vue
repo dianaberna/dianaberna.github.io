@@ -2,7 +2,7 @@
   <div class="wrapper-small my-5">
       <div class="project-card md:flex mt-8">
           <div class="img max-w-lg md:max-w-sm  mx-auto">
-              <img src="~/assets/vitacreattiva.png" class="rounded-xl border-gray-900 border-2" alt="">
+              <img src="~/assets/vitacreattiva.png" class="rounded-xl border-gray-900 border-2" alt="screenshot sito vitacreattiva di stefania de cristofaro">
           </div>
           <div class="flex flex-col justify-between max-w-lg mx-auto">
               <div class="txt md:px-5 lg:px-0">
@@ -19,7 +19,7 @@
       </div>
       <div class="project-card md:flex mt-16">
           <div class="img max-w-lg md:max-w-sm  mx-auto">
-              <img src="~/assets/instagram.png" class="rounded-xl border-gray-900 border-2" alt="">
+              <img src="~/assets/instagram.png" class="rounded-xl border-gray-900 border-2" alt="screenshot feed instagram account _dianacodes di diana bernabei">
           </div>
           <div class="flex flex-col justify-between max-w-lg mx-auto">
               <div class="txt md:px-5 lg:px-0">

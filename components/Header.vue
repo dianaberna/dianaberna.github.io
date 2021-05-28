@@ -5,7 +5,7 @@
           <div class="logo font-rubik">
             <nuxt-link to="/">
                 <h1 class="text-2xl font-bold text-gray-700">
-                  <img src="~/assets/logo.png" class="sm:h-16 lg:h-24" id="logo">
+                  <img src="~/assets/logo.png" class="sm:h-16 lg:h-24" id="logo" alt="logo di diana bernabei" aria-label="go to home page">
                 </h1>
             </nuxt-link>
           </div>
