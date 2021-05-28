@@ -4,7 +4,9 @@
       <div class="px-10 flex justify-between items-center">
           <div class="logo font-rubik">
             <nuxt-link to="/">
-                <h1 class="text-2xl font-bold text-gray-700">< DB/ ></h1>
+                <h1 class="text-2xl font-bold text-gray-700">
+                  <img src="~/assets/logo.png" class="sm:h-16 lg:h-24" id="logo">
+                </h1>
             </nuxt-link>
           </div>
       
@@ -60,7 +62,7 @@
   }
 </script>
 
-<style>
+<style lang="postcss">
   body{
       font-family: poppins, sans-serif;
   }

@@ -6,7 +6,7 @@
       </div>
 
       <div class="my-10 mx-auto text-gray-900">
-          <form class="max-w-xl mx-auto">
+          <form class="max-w-xl mx-auto" action="" method="post">
                 <div>
                   <span class="uppercase text-sm text-gray-600 font-bold">Nome</span>
                   <input class="w-full border-2 border-gray-400 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -23,10 +23,7 @@
                     class="w-full h-32 border-2 border-gray-400 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                 </div>
                 <div class="mt-8">
-                  <button
-                    class="uppercase text-sm font-bold tracking-wide bg-primary text-gray-100 p-3 rounded-full w-full focus:outline-none focus:shadow-outline">
-                    Invia
-                  </button>
+                  <input class="uppercase text-sm font-bold tracking-wide bg-primary text-gray-100 p-3 rounded-full w-full focus:outline-none focus:shadow-outline" type="submit" value="Invia">
                 </div>
           </form>
       </div>
