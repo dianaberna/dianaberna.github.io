@@ -12,7 +12,7 @@
               </div>
           <div>
               <div class="md:px-5 lg:px-0 py-3">
-                  <a href="https://www.vitacreattiva.it/" target="_blank" class="bg-primary hover:bg-gray-500 hover:text-gray-900 px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full">Vai al sito vitacreattiva.it</a>
+                  <a href="https://www.vitacreattiva.it/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Vai al sito vitacreattiva.it</a>
               </div>
           </div>
         </div>
@@ -29,10 +29,10 @@
           </div>
           <div>
               <div class="md:px-5 lg:px-0 py-3">
-                  <a href="https://www.instagram.com/_dianacodes/" target="_blank" class="bg-primary hover:bg-gray-500 hover:text-gray-900 px-3 py-2 text-sm text-gray-100 font-semibold rounded-full">Guarda il mio feed instagram</a>
+                  <a href="https://www.instagram.com/_dianacodes/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Guarda il mio feed instagram</a>
               </div>
               <div class="md:px-5 lg:px-0 py-3">
-                  <a href="https://www.twitch.tv/dianacodes" target="_blank" class="bg-primary hover:bg-gray-500 hover:text-gray-900 px-3 py-2 text-sm text-gray-100 font-semibold rounded-full">Entra nel canale Twitch</a>
+                  <a href="https://www.twitch.tv/dianacodes" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Entra nel canale Twitch</a>
               </div>
           </div>
         </div>
