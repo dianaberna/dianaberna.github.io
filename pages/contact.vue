@@ -23,7 +23,11 @@
                     class="w-full h-32 border-2 border-gray-400 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                 </div>
                 <div class="mt-8">
-                  <input class="uppercase text-sm font-bold tracking-wide bg-primary text-gray-100 p-3 rounded-full w-full focus:outline-none focus:shadow-outline" type="submit" value="Invia">
+                  <div class='has-tooltip'>
+                    
+                    <input disabled class="uppercase text-sm font-bold tracking-wide bg-primary text-gray-100 p-3 rounded-full w-full focus:outline-none focus:shadow-outline" type="submit" value="Invia">
+                    <span class="tooltip bg-gray-200 p-3 -mt-1 lg:-mt-1 ml-2 rounded">Coming soon!</span>
+                  </div>
                 </div>
           </form>
       </div>
@@ -44,3 +48,12 @@ export default {
     }
 }
 </script>
+<style lang="postcss">
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50
+}
+</style>
