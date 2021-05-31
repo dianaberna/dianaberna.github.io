@@ -3,8 +3,7 @@
       <div class="text-center mt-2 border-b-2 pb-3">
         <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Community</h2>
       </div>
-      <h3 class="text-sm md:text-base text-gray-700 font-regular my-3">Da quando ho inziato ad essere presente sui social ho avuto modo di conoscere e collaborare con diverse community e voglio dedicare uno spazio per loro.
-      </h3>
+      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Da quando ho inziato ad essere presente sui social ho avuto modo di conoscere e collaborare con diverse community e voglio dedicare uno spazio per loro.</p>
       <div class="grid grid-cols-4 gap-4">
         <div class="text-center">
           <img src="~/assets/community/vuejsitalia.jpg" class="">

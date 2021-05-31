@@ -28,12 +28,8 @@
                   a fare streaming su Twitch </p> 
           </div>
           <div>
-              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il feed instagram di dianacodes">
-                  <a href="https://www.instagram.com/_dianacodes/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Guarda il mio feed instagram</a>
-              </button>
-              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il canale twitch di dianacodes">
-                  <a href="https://www.twitch.tv/dianacodes" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Entra nel canale Twitch</a>
-              </button>
+                <a href="https://www.instagram.com/_dianacodes/" aria-label="Visita il feed instagram di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Guarda il mio feed instagram</a>
+                <a href="https://www.twitch.tv/dianacodes" aria-label="Visita il canale twitch di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Entra nel canale Twitch</a>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@
 
     <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
         <div class="px-2 pt-2 pb-3 sm:px-3 bg-primary">
-            <nuxt-link to="/about" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">About
+            <nuxt-link to="/about" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">Chi sono
             </nuxt-link>
             <nuxt-link to="/blog" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">Blog
             </nuxt-link>
@@ -45,7 +45,7 @@
               <nuxt-link to="/live" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Live</nuxt-link>
             <nuxt-link to="/contact" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
-              Contact</nuxt-link>
+              Contatti</nuxt-link>
         </div>
     </div>
   </div>
