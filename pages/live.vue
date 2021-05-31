@@ -2,11 +2,9 @@
   <div class="wrapper-small">
       <div class="text-center mt-2 border-b-2 pb-3">
         <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Live</h2>
-        <h3 class="text-sm md:text-base text-gray-700 font-regular my-3">
-        </h3>
       </div>
+      <h3 class="text-sm md:text-base text-gray-700 font-regular my-3">Questa pagina è dedicata a tutti e tutte gli/le ospiti che ho avuto modo di intervistare nelle live del giovedì!</h3>
       <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
-        Questa pagina è dedicata a tutti e tutte gli/le ospiti che ho avuto modo di intervistare nelle live del giovedì! 
         <p>01/04/2021 <a href="">Alessandro Berti (Ph.D Student in Quantum Computing @ University of Pisa)</a></p>
         <p>08/04/2021 <a href="">Giuseppe Checchia (Lead Developer)</a></p>
         <p>15/04/2021 <a href="">Fiorella De Luca (Project Manager)</a></p>
