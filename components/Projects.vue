@@ -11,9 +11,9 @@
                   Ogni elemento grafico è stato accuratamente studiato visto che il suo lavoro si basa sulle forme e i colori.</p> 
               </div>
           <div>
-              <div class="md:px-5 lg:px-0 py-3">
+              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il sito web vitacreattiva.it">
                   <a href="https://www.vitacreattiva.it/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Vai al sito vitacreattiva.it</a>
-              </div>
+              </button>
           </div>
         </div>
       </div>
@@ -28,12 +28,12 @@
                   a fare streaming su Twitch </p> 
           </div>
           <div>
-              <div class="md:px-5 lg:px-0 py-3">
+              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il feed instagram di dianacodes">
                   <a href="https://www.instagram.com/_dianacodes/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Guarda il mio feed instagram</a>
-              </div>
-              <div class="md:px-5 lg:px-0 py-3">
+              </button>
+              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il canale twitch di dianacodes">
                   <a href="https://www.twitch.tv/dianacodes" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Entra nel canale Twitch</a>
-              </div>
+              </button>
           </div>
         </div>
       </div>

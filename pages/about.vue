@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper-small md:px-10">
       <div class="text-center  mt-2 border-b-2 pb-3">
-        <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">About Me</h2>
+        <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Chi sono</h2>
       </div>
 
         <p class="text-base md:text-lg font-regular text-gray-700 mt-2">

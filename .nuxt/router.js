@@ -9,6 +9,7 @@ const _c869b47a = () => interopDefault(import('../pages/blog/index.vue' /* webpa
 const _55d2688a = () => interopDefault(import('../pages/community.vue' /* webpackChunkName: "pages/community" */))
 const _3e8ff2f2 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _2b17b66c = () => interopDefault(import('../pages/credits.vue' /* webpackChunkName: "pages/credits" */))
+const _1225db8a = () => interopDefault(import('../pages/live.vue' /* webpackChunkName: "pages/live" */))
 const _cbd6f70a = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
 const _6e1fd5b8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -48,6 +49,10 @@ export const routerOptions = {
     path: "/credits",
     component: _2b17b66c,
     name: "credits"
+  }, {
+    path: "/live",
+    component: _1225db8a,
+    name: "live"
   }, {
     path: "/blog/:slug",
     component: _cbd6f70a,

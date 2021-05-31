@@ -7,7 +7,7 @@
     <div class="my-10 border-gray-900 border-2 p-4 md:p-6 rounded-xl " v-for="post of posts" :key="post.slug">
       <div class="flex justify-between items-center">
         <span class="font-text-base text-gray-600 text-sm">{{ formatDate(post.createdAt) }}</span>
-        <span class="px-3 py-1 text-white font-text-base rounded bg-pink-600">#{{ post.tag }}</span>
+        <span class="px-3 py-1 text-white font-text-base rounded bg-pink-800">#{{ post.tag }}</span>
       </div>
 
       <div class="mt-2">

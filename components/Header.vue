@@ -11,10 +11,11 @@
           </div>
       
           <div class="navbar hidden md:block">
-            <nuxt-link class="nav-link" to="/about">About</nuxt-link>
+            <nuxt-link class="nav-link" to="/about">Chi sono</nuxt-link>
             <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
             <nuxt-link class="nav-link" to="/community">Community</nuxt-link>
-            <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+            <nuxt-link class="nav-link" to="/live">Live</nuxt-link>
+            <nuxt-link class="nav-link" to="/contact">Contatti</nuxt-link>
           </div>
 
           <div class="ml-3 flex md:hidden">
@@ -41,6 +42,8 @@
             </nuxt-link>
             <nuxt-link to="/community" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Community</nuxt-link>
+              <nuxt-link to="/live" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
+              Live</nuxt-link>
             <nuxt-link to="/contact" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Contact</nuxt-link>
         </div>
