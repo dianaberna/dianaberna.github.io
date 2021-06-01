@@ -42,7 +42,12 @@ export default {
     '@nuxtjs/google-analytics',
   ],
   googleAnalytics: {
-    id: 'UA-124229163-1'
+    id: 'UA-124229163-1',
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: 'UA-124229163-1'
+    }
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
