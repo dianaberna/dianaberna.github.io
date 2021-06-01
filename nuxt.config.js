@@ -28,7 +28,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-      {src: '~/plugins/vue-gtag', mode: 'client'}
+    {src: '~/plugins/vue-gtag', mode: 'client'}
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -39,7 +39,11 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    '@nuxtjs/google-analytics',
   ],
+  googleAnalytics: {
+    id: 'UA-124229163-1'
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
