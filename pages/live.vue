@@ -15,6 +15,9 @@
         <p>13/05/2021 <a href="">Azzurra Ragone (Innovation & Transformation lead @ EY)</a></p>
         <p>20/05/2021 <a href="">Eugenio Paluello (CTO @ Tocket)</a></p>
         <p>27/05/2021 <a href="">Juna Salviati (Full Stack Developer | Co-leader GDG Roma)</a></p>
+        <p>03/06/2021 <a href="">Simone Sanfratello (Senior Backend Engineer)</a></p>
+        <p>10/06/2021 <a href="">Serena Sensini </a></p>
+        <p>17/06/2021</p>
       </div>
   </div>
 </template>

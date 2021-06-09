@@ -13,7 +13,7 @@
         </p>
         <p class="text-base md:text-lg font-regular text-gray-700 mt-2">
           Il <span class="underline">design</span> è una parte importante del mio core, mi tengo continuamente aggiornata su nuove librerie grafiche e novità del CSS. 
-          La miglior combinazione tra codice e design l'ho trovata nel tema dell'<span class="underline">accessibilità</span> dove sto iniziando a specializzarmi. 
+          La miglior combinazione tra codice e design l'ho trovata nel tema dell'<a href="https://www.dianabernabei.com/blog/risorse-accessibilita"><span class="underline">accessibilità</span></a> dove sto iniziando a specializzarmi. 
         </p>
         <p class="text-base md:text-lg font-regular text-gray-700 mt-2">  
           Ho scoperto nell'arco degli anni una grande passione per le <span class="underline">community</span>, sono stata per 4 anni Community Manager del GDG Pisa, e da alcuni mesi
@@ -53,6 +53,28 @@
           <li>( 2018 ) Organizer <a href="https://2018.devfest.gdgpisa.it/" target="_blank" class="underline">DevFest Pisa 0.1</a></li>
         </ul>
       </div>
+      <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
+        <h3 class="text-xl md:text2xl lg:text-3xl text-primary text-gray-700">Educazione</h3>
+        <ul class="list-disc">
+          <li>( 2018 - in corso ) Laurea triennale in INFORMATICA (EHEA First cycle, EQF Level 6) presso l'Università di Pisa (Esami: Ricerca operativa, Architettura degli elaboratori, Logica per la programmazione, Progettazione grafica, Algortimica, Progettazione d'interfaccie, Sistemi operativi)</li>
+          <li>( 2013 - 2018 ) Laurea triennale in INGEGNERIA INFORMATICA (non conclusa) presso l'Università di Pisa (Esami: Analisi 1, Analisi 2, Algebra, Calcolo Numerico, Fisica, Fondamenti di Informatica 1, Progettazione Web, Ingegneria del software, Elettrotecnica, Basi di dati, Fondamenti di automatica)</li>
+          <li>( 2009 - 2013 ) Diploma scuola superiore specializzazione INFORMATICA presso ITIS “G. e M. Montani” di Fermo - Voto 100/100</li>
+        </ul>
+      </div>
+      <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
+        <h3 class="text-xl md:text2xl lg:text-3xl text-primary text-gray-700">Talks</h3>
+        <ul class="list-disc">
+          <li>( 12/2019 ) “Come tenere un talk (con workshop) v4” GDG Pisa</li>
+          <li>( 11/2019 ) “Come tenere un talk v3” DevFest Urbino</li>
+          <li>( 11/2019 ) “Come tenere un talk v2” DevFest Pescara</li>
+          <li>( 11/2019 ) “L’importanza della community” Linux Day Pisa (con Chiara Corrado, Giovanni Bartolomeo, Leonardo Dipilato)</li>
+          <li>( 10/2019 ) “WebDev for Dummies” GDG Pisa</li>
+          <li>( 09/2019 ) “Autopromozione” WTM Pisa Meetup (con Chiara Corrado)</li>
+          <li>( 05/2019 ) “Stories, advices and a pinch of bits” GDG Torino</li>
+          <li>( 04/2019 ) “Come tenere un talk v1” DevFest Pisa 1.0</li>
+          <li>( 2018 ) “Bootstrap: from Zero to Hero” GDG Genova</li>
+        </ul>
+      </div>
   </div>
 </template>
 
@@ -65,5 +87,8 @@ export default {
 <style>
   .img-container{
     position: relative;
+  }
+  ul{
+    padding-left: 20px;
   }
 </style>
