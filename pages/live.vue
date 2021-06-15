@@ -3,21 +3,75 @@
       <div class="text-center mt-2 border-b-2 pb-3">
         <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Live</h2>
       </div>
-      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Questa pagina è dedicata a tutti e tutte gli/le ospiti che ho avuto modo di intervistare nelle live del giovedì!</p>
+      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Ogni giovedì nel mio<a href="https://www.twitch.tv/dianacodes" target="_blank">canale Twitch</a> sono live con una nuova intervista e in questa pagina puoi trovare tutti/e gli/le ospiti con cui ho chiacchierato fino ad ora!</p>
       <br>
-      <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
-        <p>01/04/2021 <a href="">Alessandro Berti (Ph.D Student in Quantum Computing @ University of Pisa)</a></p>
-        <p>08/04/2021 <a href="">Giuseppe Checchia (Lead Developer)</a></p>
-        <p>15/04/2021 <a href="">Fiorella De Luca (Project Manager)</a></p>
-        <p>22/04/2021 <a href="">Giovanni Bartolomeo (MSc Student @ University of Pisa)</a></p>
-        <p>29/04/2021 <a href="">Simone Torrisi (Software Architecture Consultant | JavaScript and React specialist | Founder & Mentor @TomorrowDevs) </a></p>
-        <p>06/05/2021 <a href="">Aldo D'Aquino (Infrastructure Engineer @ Bending Spoons)</a></p>
-        <p>13/05/2021 <a href="">Azzurra Ragone (Innovation & Transformation lead @ EY)</a></p>
-        <p>20/05/2021 <a href="">Eugenio Paluello (CTO @ Tocket)</a></p>
-        <p>27/05/2021 <a href="">Juna Salviati (Full Stack Developer | Co-leader GDG Roma)</a></p>
-        <p>03/06/2021 <a href="">Simone Sanfratello (Senior Backend Engineer)</a></p>
-        <p>10/06/2021 <a href="">Serena Sensini </a></p>
-        <p>17/06/2021</p>
+      <div class="grid grid-cols-4 gap-4">
+        <div class="text-center">
+          <a href="https://youtu.be/X7mVOUtYn2M">
+            <img src="~/assets/guests/1.png" class="" alt="foto alessandro berti">
+            <p class="text-gray-700 font-bold">Alessandro Berti (Ph.D Student in Quantum Computing @ University of Pisa)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/6xre44hH92k">
+            <img src="~/assets/guests/2.png" class="" alt="foto giuseppe checchia">
+            <p class="text-gray-700 font-bold">Giuseppe Checchia (Lead Developer)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/KyuGBZy_RqE">
+            <img src="~/assets/guests/3.png" class="" alt="foto fiorella de luca">
+            <p class="text-gray-700 font-bold">Fiorella De Luca (Project Manager)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/2lzy5UwVAPU">
+            <img src="~/assets/guests/4.png" class="" alt="foto giovanni bartolomeo">
+            <p class="text-gray-700 font-bold">Giovanni Bartolomeo (MSc Student @ University of Pisa)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/DweqvPiFvc8">
+            <img src="~/assets/guests/5.png" class="" alt="foto simone torrisi">
+            <p class="text-gray-700 font-bold">Simone Torrisi (Software Architecture Consultant | JavaScript and React specialist | Founder and Mentor @TomorrowDevs)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/eiHQ-VEFAA4">
+            <img src="~/assets/guests/6.png" class="" alt="foto aldo d'aquino">
+            <p class="text-gray-700 font-bold">Aldo D'Aquino (Infrastructure Engineer @ Bending Spoons)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/LyhlVxR1sW8">
+            <img src="~/assets/guests/7.png" class="" alt="foto azzurra ragone">
+            <p class="text-gray-700 font-bold">Azzurra Ragone (Innovation and Transformation lead @ EY)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/knpPcyuuTCM">
+            <img src="~/assets/guests/8.png" class="" alt="foto eugenio paluello">
+            <p class="text-gray-700 font-bold">Eugenio Paluello (CTO @ Tocket)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/JcqOksg5QCw">
+            <img src="~/assets/guests/9.png" class="" alt="foto juna salviati">
+            <p class="text-gray-700 font-bold">Juna Salviati (Full Stack Developer e Co-leader del GDG Roma)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/VfWeKTaraIY">
+            <img src="~/assets/guests/10.png" class="" alt="foto simone sanfratello">
+            <p class="text-gray-700 font-bold">Simone Sanfratello (Senior Backend Engineer)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/5ncwldP1grA">
+            <img src="~/assets/guests/11.png" class="" alt="foto serena sensini">
+            <p class="text-gray-700 font-bold">Serena Sensini (Enterprise Architect @ Dedalus spa)</p>
+          </a>
+        </div>
       </div>
   </div>
 </template>
