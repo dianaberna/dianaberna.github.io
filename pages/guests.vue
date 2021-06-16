@@ -5,7 +5,7 @@
       </div>
       <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Ogni giovedì nel mio<a href="https://www.twitch.tv/dianacodes" target="_blank">canale Twitch</a> sono live con una nuova intervista e in questa pagina puoi trovare tutti/e gli/le ospiti con cui ho chiacchierato fino ad ora!</p>
       <br>
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 gap-1 md:grid-cols-4 md:gap-4">
         <div class="text-center">
           <a href="https://youtu.be/X7mVOUtYn2M">
             <img src="~/assets/guests/1.png" class="" alt="foto alessandro berti">
