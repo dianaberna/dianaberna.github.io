@@ -4,7 +4,7 @@
         <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Community</h2>
       </div>
       <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Da quando ho inziato ad essere presente sui social ho avuto modo di conoscere e collaborare con diverse community e voglio dedicare uno spazio per loro.</p>
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 gap-1 md:grid-cols-4 md:gap-4">
         <div class="text-center">
           <a href="https://www.fuzzybrains.org/it/">
             <img src="~/assets/community/fuzzybrains.png" class="" alt="logo fuzzy brains">

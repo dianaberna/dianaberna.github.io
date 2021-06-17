@@ -14,7 +14,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Sono una sviluppatrice web e UI designer. Passionate community&communication  ' }
+      { hid: 'description', name: 'description', content: 'Sono una sviluppatrice web e UI designer. Passionate community e communication' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' },
@@ -29,6 +29,10 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     {src: '~/plugins/vue-gtag', mode: 'client'}
+  ],
+
+  script: [
+    { src: '/iubenda.js'}  
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
