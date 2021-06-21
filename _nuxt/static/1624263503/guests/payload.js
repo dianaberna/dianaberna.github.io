@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/guests", {data:[{}],fetch:[],mutations:void 0});
