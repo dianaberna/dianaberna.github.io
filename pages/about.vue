@@ -34,6 +34,15 @@
         </div>
       </div>
       <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
+        <h3 class="text-xl md:text2xl lg:text-3xl text-primary text-gray-700">Skills</h3>
+        <ul class="list-disc">
+          <li>HTML5, CSS3 e preprocessori, Javascript, ES6, VueJS</li>
+          <li>Boostrap, Bulma, Tailwind</li>
+          <li>PHP, C++, JAMStack</li>
+          <li>Adobe Photoshop, Adobe Illustrator, Figma</li>
+        </ul>
+      </div>
+      <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
         <h3 class="text-xl md:text2xl lg:text-3xl text-primary text-gray-700">Esperienze lavorative</h3>
         <ul class="list-disc">
           <li>( 2020 - in corso ) Inizio lavoro come Freelance</li>
