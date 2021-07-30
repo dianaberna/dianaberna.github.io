@@ -79,7 +79,7 @@ export default {
     
           // ...all other config options. (See Iubenda cookie banner script)
           // Example defaults:
-          lang: 'en',
+          lang: 'it',
           gdprAppliesGlobally: false,
           cookiePolicyInOtherWindow: false,
           consentOnContinuedBrowsing: false,

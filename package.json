@@ -14,7 +14,6 @@
     "@tailwindcss/typography": "^0.4.0",
     "boxicons": "^2.0.7",
     "core-js": "^3.6.5",
-    "iubenda-module": "^0.0.6",
     "nuxt": "^2.14.6",
     "nuxt-rfg-icon": "^0.6.4",
     "vue-gtag": "^1.16.1"
