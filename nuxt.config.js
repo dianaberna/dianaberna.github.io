@@ -59,49 +59,7 @@ export default {
     '@nuxt/content',
     'nuxt-rfg-icon',
     '@nuxtjs/manifest',
-    ['nuxt-rfg-icon', { masterPicture: 'static/icon.png' }],
-    ['iubenda-module', {
-      iubenda: {
-        // Defaults:
-        dev: true, // Activate module in dev environment.
-        consentMode: true, // Use Google's consent mode.
-        links: {
-          enable: true, // Add script to include links to policy pages.
-          style: 'nostyle', // Add styling to links. (nostyle, white or black)
-          whiteLabel: true, // White label links.
-          embed: true // Open links in embedded popup.
-        },
-    
-        // Entire iubenda configuration
-        config: {
-          siteId: 2266998, // Required
-          cookiePolicyId: 83839726, // Required
-    
-          // ...all other config options. (See Iubenda cookie banner script)
-          // Example defaults:
-          lang: 'it',
-          gdprAppliesGlobally: false,
-          cookiePolicyInOtherWindow: false,
-          consentOnContinuedBrowsing: false,
-          perPurposeConsent: true,
-          banner: {
-            acceptButtonDisplay: true,
-            customizeButtonDisplay: true,
-            rejectButtonDisplay: false,
-            acceptButtonColor: 'black',
-            acceptButtonCaptionColor: 'white',
-            customizeButtonColor: '#bbb',
-            customizeButtonCaptionColor: 'black',
-            rejectButtonColor: 'white',
-            rejectButtonCaptionColor: 'black',
-            closeButtonDisplay: false,
-            position: 'float-bottom-right',
-            textColor: '#333',
-            backgroundColor: '#ddd'
-          }
-        }
-      }
-    }]
+    ['nuxt-rfg-icon', { masterPicture: 'static/icon.png' }]
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
