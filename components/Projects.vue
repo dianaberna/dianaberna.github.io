@@ -1,39 +1,38 @@
 <template>
-  <div class="wrapper-small my-5">
-      <div class="project-card md:flex mt-8">
-          <div class="img max-w-lg md:max-w-sm  mx-auto">
-              <img src="~/assets/vitacreattiva.png" class="rounded-xl border-gray-900 border-2" alt="screenshot sito vitacreattiva di stefania de cristofaro">
-          </div>
-          <div class="flex flex-col justify-between max-w-lg mx-auto">
-              <div class="txt md:px-5 lg:px-0">
-              <h2 class="text-xl font-semibold text-gray-800">Vita Crea(t)tiva di Stefania De Cristofaro</h2>
-              <p class="text-base text-gray-700 my-3">Stefania è un'arteterapeuta e nel suo sito parla del suo lavoro, pubblica blogpost e nuovi eventi che organizza. 
-                  Ogni elemento grafico è stato accuratamente studiato visto che il suo lavoro si basa sulle forme e i colori.</p> 
-              </div>
-          <div>
-              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il sito web vitacreattiva.it">
-                  <a href="https://www.vitacreattiva.it/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Visita il sito vitacreattiva.it</a>
-              </button>
-          </div>
+    <div class="wrapper-small my-5">
+        <div class="project-card md:flex mt-8">
+            <div class="img max-w-lg md:max-w-sm  mx-auto">
+                <a href="https://www.instagram.com/_dianacodes/" aria-label="Visita il feed instagram di dianacodes" role="button" target="_blank" rel="noreferrer">
+                    <img src="~/assets/instagram.png" class="rounded-xl border-gray-900 border-2" alt="screenshot feed instagram account _dianacodes">
+                </a>
+            </div>
+            <div class="flex flex-col justify-between max-w-lg mx-auto">
+                <div class="txt md:px-5 lg:px-0">
+                    <h2 class="text-xl font-semibold text-gray-700">Content creator</h2>
+                    <p class="text-base text-gray-700 my-3">Da quando ho scoperto le community mi è sempre piaciuta l'idea della condivisione di conoscenza, per questo ho iniziato a tenere talk e con il lockdown ho iniziato a postare contenuti su Instagram.</p> 
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/_dianacodes/" aria-label="Visita il feed instagram _dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il feed instagram _dianacodes</a>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="project-card md:flex mt-16">
-          <div class="img max-w-lg md:max-w-sm  mx-auto">
-              <img src="~/assets/instagram.png" class="rounded-xl border-gray-900 border-2" alt="screenshot feed instagram account _dianacodes di diana bernabei">
-          </div>
-          <div class="flex flex-col justify-between max-w-lg mx-auto">
-              <div class="txt md:px-5 lg:px-0">
-              <h2 class="text-xl font-semibold text-gray-800">Content creator</h2>
-              <p class="text-base text-gray-700 my-3">Dal lockdown ho imparato che non si ha abbastanza tempo a disposizione per aspettare che le condizioni siano perfette, per questo ho iniziato a creare contenuti su Instagram e 
-                  a fare streaming su Twitch </p> 
-          </div>
-          <div>
-                <a href="https://www.instagram.com/_dianacodes/" aria-label="Visita il feed instagram di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il mio feed instagram</a>
-                <br><br><a href="https://www.twitch.tv/dianacodes" aria-label="Visita il canale twitch di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il canale Twitch dianacodes</a>
-          </div>
+        <div class="project-card md:flex mt-8">
+            <div class="img max-w-lg md:max-w-sm mx-auto">
+                <a href="https://www.twitch.tv/dianacodes" aria-label="Visita il canale twitch di dianacodes" role="button" target="_blank" rel="noreferrer">
+                    <img src="~/assets/twitch.png" class="rounded-xl border-gray-900 border-2" alt="screenshot canale twitch dianacodes">
+                </a>
+            </div>
+            <div class="flex flex-col justify-between max-w-lg mx-auto">
+                <div class="txt md:px-5 lg:px-0">
+                    <h2 class="text-xl font-semibold text-gray-700">Streamer</h2>
+                    <p class="text-base text-gray-700 my-3">L'idea di parlare di programmazione e riuscire a fare networking pur restando davanti al pc mi ha portato ad aprire un canale su Twitch dove parlo di codice, design, community e intervisto persone del mondo digital.</p> 
+                </div>
+                <div>
+                    <a href="https://www.twitch.tv/dianacodes" aria-label="Visita il canale Twitch dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il canale Twitch dianacodes</a>
+                </div>
+            </div>
         </div>
-      </div>
-  </div>
+    </div>
 </template>
 
 <script>

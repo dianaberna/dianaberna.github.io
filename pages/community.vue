@@ -18,6 +18,18 @@
           </a>
         </div>
         <div class="text-center">
+          <a href="https://pausacaffe.live/">
+            <img src="~/assets/community/pausacaffe.png" class="" alt="logo pausa caffè">
+            <p class="text-gray-700 font-bold">Pausa Caffè</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://pointerpodcast.it/">
+            <img src="~/assets/community/pointerpodcast.png" class="" alt="logo pointer podcast">
+            <p class="text-gray-700 font-bold">PointerPodcast</p>
+          </a>
+        </div>
+        <div class="text-center">
           <a href="https://www.theredcode.it/">
             <img src="~/assets/community/theredcode.png" class="" alt="logo the red code">
             <p class="text-gray-700 font-bold">theRedCode</p>

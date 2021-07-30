@@ -1,4 +1,6 @@
-# Monotone
+# My personal website 
+
+I used Monotone theme
 
 ## Build Setup
 

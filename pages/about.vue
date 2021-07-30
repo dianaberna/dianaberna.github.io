@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper-small md:px-10">
       <div class="text-center  mt-2 border-b-2 pb-3">
-        <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Chi sono</h2>
+        <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Mi presento</h2>
       </div>
 
         <p class="text-base md:text-lg font-regular text-gray-700 mt-2">
@@ -45,6 +45,7 @@
       <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
         <h3 class="text-xl md:text2xl lg:text-3xl text-primary text-gray-700">Esperienze lavorative</h3>
         <ul class="list-disc">
+          <li>( 2021 - in corso ) Community Manager presso TomorrowDevs</li>
           <li>( 2020 - in corso ) Inizio lavoro come Freelance</li>
           <li>( 2020 ) Sviluppo sito web vitacreattiva.it personalizzando un tema Wordpress con Bootstrap</li>
           <li>( 2020 ) Zerynth sede Pisa (PI): Technical Marketing, Content marketing, Copywriting</li>
@@ -65,7 +66,8 @@
       <div class="text-base md:text-lg font-regular text-gray-700 mt-2">
         <h3 class="text-xl md:text2xl lg:text-3xl text-primary text-gray-700">Educazione</h3>
         <ul class="list-disc">
-          <li>( 2018 - in corso ) Laurea triennale in INFORMATICA (EHEA First cycle, EQF Level 6) presso l'Università di Pisa (Esami: Ricerca operativa, Architettura degli elaboratori, Logica per la programmazione, Progettazione grafica, Algortimica, Progettazione d'interfaccie, Sistemi operativi)</li>
+          <li>( 2021 - ) Laurea triennale in INFORMATICA presso l'Università di Camerino </li>
+          <li>( 2018 - 2021) Laurea triennale in INFORMATICA (non conclusa) presso l'Università di Pisa (Esami: Ricerca operativa, Architettura degli elaboratori, Logica per la programmazione, Progettazione grafica, Algortimica, Progettazione d'interfaccie, Sistemi operativi)</li>
           <li>( 2013 - 2018 ) Laurea triennale in INGEGNERIA INFORMATICA (non conclusa) presso l'Università di Pisa (Esami: Analisi 1, Analisi 2, Algebra, Calcolo Numerico, Fisica, Fondamenti di Informatica 1, Progettazione Web, Ingegneria del software, Elettrotecnica, Basi di dati, Fondamenti di automatica)</li>
           <li>( 2009 - 2013 ) Diploma scuola superiore specializzazione INFORMATICA presso ITIS “G. e M. Montani” di Fermo - Voto 100/100</li>
         </ul>

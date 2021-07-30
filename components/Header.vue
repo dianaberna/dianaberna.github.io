@@ -12,9 +12,10 @@
       
           <div class="navbar hidden md:block">
             <nuxt-link class="nav-link" to="/about">Chi sono</nuxt-link>
+            <nuxt-link class="nav-link" to="/portfolio">Portfolio</nuxt-link>
             <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
             <nuxt-link class="nav-link" to="/community">Community</nuxt-link>
-            <nuxt-link class="nav-link" to="/guests">Ospiti</nuxt-link>
+            <nuxt-link class="nav-link" to="/guests">Twitch</nuxt-link>
             <a class="nav-link" target="_blank" href="mailto:bernabei.d@gmail.com">Scrivimi!</a>
           </div>
 
@@ -38,12 +39,14 @@
         <div class="px-2 pt-2 pb-3 sm:px-3 bg-primary">
             <nuxt-link to="/about" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">Chi sono
             </nuxt-link>
+            <nuxt-link to="/portfolio" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">Portfolio
+            </nuxt-link>
             <nuxt-link to="/blog" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">Blog
             </nuxt-link>
             <nuxt-link to="/community" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Community</nuxt-link>
               <nuxt-link to="/guests" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
-              Guests</nuxt-link>
+              Twitch</nuxt-link>
             <a href="mailto:bernabei.d@gmail.com" target="_blank" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Scrivimi!</a>
         </div>

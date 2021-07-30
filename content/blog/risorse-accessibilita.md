@@ -6,7 +6,9 @@ publicationDate: 2021-05-28T00:00:00+01:00
 ---
 
 <p className="lead">
+<i class='bx bxs-quote-alt-left' ></i>
   La forza del Web sta nella sua universalità. L'accesso da parte di chiunque, indipendentemente dalle disabilità, ne è un aspetto essenziale (Tim Berners-Lee)
+  <i class='bx bxs-quote-alt-right' ></i>
 </p>
 
 Che cos'è l'accessibilità nel web? 

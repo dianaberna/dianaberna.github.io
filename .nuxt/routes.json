@@ -42,6 +42,20 @@
     "_name": "_78a1418e"
   },
   {
+    "name": "portfolio",
+    "path": "/portfolio",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/portfolio.vue",
+    "chunkName": "pages/portfolio",
+    "_name": "_69124ccc"
+  },
+  {
+    "name": "projectsList",
+    "path": "/projectsList",
+    "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/projectsList.vue",
+    "chunkName": "pages/projectsList",
+    "_name": "_55c0a254"
+  },
+  {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "/Users/dianabernabei/Documents/Progetti/dianaberna.github.io/pages/blog/_slug.vue",

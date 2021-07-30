@@ -1,6 +1,5 @@
 <template>
-  <div class="wrapper text-left">
-
+  <div class="wrapper text-left" role="region" aria-label="social">
       <a class="social-link hover:text-pink-600" href="https://www.instagram.com/_dianacodes/" target="_blank" aria-label="Instagram" rel="noreferrer">
         <i class='bx bxl-instagram-alt'></i>
       </a>
@@ -24,6 +23,10 @@
       <a class="social-link hover:text-pink-600" href="https://github.com/dianaberna" target="_blank" aria-label="Github" rel="noreferrer">
         <i class='bx bxl-github'></i>
       </a>
+
+      <a class="social-link hover:text-pink-600" href="https://discord.gg/FC7sQyg8ar" target="_blank" aria-label="Discord" rel="noreferrer">
+        <i class='bx bxl-discord-alt' ></i>
+      </a>
   </div>
 </template>
 
@@ -35,6 +38,6 @@ export default {
 
 <style>
   .social-link{
-      @apply mx-2 text-3xl text-gray-800;
+      @apply mx-2 text-3xl text-gray-700;
   }
 </style>

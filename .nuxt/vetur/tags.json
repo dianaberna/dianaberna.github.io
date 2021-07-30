@@ -17,6 +17,12 @@
   "LazyHero": {
     "description": "Auto imported from /components/Hero.vue"
   },
+  "Portfolio": {
+    "description": "Auto imported from /components/Portfolio.vue"
+  },
+  "LazyPortfolio": {
+    "description": "Auto imported from /components/Portfolio.vue"
+  },
   "Projects": {
     "description": "Auto imported from /components/Projects.vue"
   },

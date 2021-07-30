@@ -3,9 +3,10 @@
       <div class="text-center mt-2 border-b-2 pb-3">
         <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Live</h2>
       </div>
-      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Ogni giovedì nel mio<a href="https://www.twitch.tv/dianacodes" target="_blank">canale Twitch</a> sono live con una nuova intervista e in questa pagina puoi trovare tutti/e gli/le ospiti con cui ho chiacchierato fino ad ora!</p>
+      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Ogni giovedì nel mio canale Twitch dianacodes sono live con una nuova intervista e in questa pagina puoi trovare tutti/e gli/le ospiti con cui ho chiacchierato fino ad ora!</p>
+      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Oltre a chiaccherare in live parliamo spesso anche Discord, se ti va di unirti alla community trovi il link nella sezione Social.</p>
       <br>
-      <div class="grid grid-cols-1 gap-1 md:grid-cols-4 md:gap-4">
+      <div class="grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-3">
         <div class="text-center">
           <a href="https://youtu.be/X7mVOUtYn2M">
             <img src="~/assets/guests/1.png" class="" alt="foto alessandro berti">
@@ -70,6 +71,42 @@
           <a href="https://youtu.be/5ncwldP1grA">
             <img src="~/assets/guests/11.png" class="" alt="foto serena sensini">
             <p class="text-gray-700 font-bold">Serena Sensini (Enterprise Architect @ Dedalus spa)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/45ZqV3oWYCM">
+            <img src="~/assets/guests/12.png" class="" alt="foto michel murabito">
+            <p class="text-gray-700 font-bold">Michel Murabito (Deputy CTO by day, Developer in the soul, Superhero wannabe by night)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/_DZgiu2w7a4">
+            <img src="~/assets/guests/13.png" class="" alt="foto michelantonio trizio">
+            <p class="text-gray-700 font-bold">Mike Trizio (CTO | Engineer | Innovation Manager | AR/VR and AI evangelist for Industry 4.0 | Community manager | Public speaker)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/WjbZ4E4_23o">
+            <img src="~/assets/guests/14.png" class="" alt="foto nicola corti">
+            <p class="text-gray-700 font-bold">Nicola Corti (Kotlin Google Developer Expert)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/NM0M_NLq9Xc">
+            <img src="~/assets/guests/15.png" class="" alt="foto michela bertaina">
+            <p class="text-gray-700 font-bold">Michela Bertaina (Community manager and event organizer @ GrUSP)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/G1bbMd4ln7U">
+            <img src="~/assets/guests/16.png" class="" alt="foto adriano grimaldi">
+            <p class="text-gray-700 font-bold">Adriano Grimaldi (developer e istruttore frontend)</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://youtu.be/Fl_7mi_t_ZA">
+            <img src="~/assets/guests/17.png" class="" alt="foto lorenzo pinna">
+            <p class="text-gray-700 font-bold">Lorenzo Pinna (Esperto di Esperienza Utente UX)</p>
           </a>
         </div>
       </div>
