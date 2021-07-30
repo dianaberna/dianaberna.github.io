@@ -12,7 +12,7 @@
               </div>
           <div>
               <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il sito web vitacreattiva.it">
-                  <a href="https://www.vitacreattiva.it/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Vai al sito vitacreattiva.it</a>
+                  <a href="https://www.vitacreattiva.it/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Visita il sito vitacreattiva.it</a>
               </button>
           </div>
         </div>
@@ -28,8 +28,8 @@
                   a fare streaming su Twitch </p> 
           </div>
           <div>
-                <a href="https://www.instagram.com/_dianacodes/" aria-label="Visita il feed instagram di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Guarda il mio feed instagram</a>
-                <br><br><a href="https://www.twitch.tv/dianacodes" aria-label="Visita il canale twitch di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Entra nel canale Twitch</a>
+                <a href="https://www.instagram.com/_dianacodes/" aria-label="Visita il feed instagram di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il mio feed instagram</a>
+                <br><br><a href="https://www.twitch.tv/dianacodes" aria-label="Visita il canale twitch di dianacodes" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il canale Twitch dianacodes</a>
           </div>
         </div>
       </div>

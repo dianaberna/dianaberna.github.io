@@ -5,7 +5,7 @@
           <div class="logo font-rubik">
             <nuxt-link to="/">
                 <h1 class="text-2xl font-bold text-gray-700">
-                  <img src="~/assets/logo.png" class="h-16 lg:h-24 xl:h-24" id="logo" alt="logo di diana bernabei" aria-label="go to home page">
+                  <img src="~/assets/logo.png" class="h-16 lg:h-24 xl:h-24" id="logo" alt="logo di diana bernabei" aria-label="vai all'home page">
                 </h1>
             </nuxt-link>
           </div>
@@ -14,7 +14,7 @@
             <nuxt-link class="nav-link" to="/about">Chi sono</nuxt-link>
             <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
             <nuxt-link class="nav-link" to="/community">Community</nuxt-link>
-            <nuxt-link class="nav-link" to="/guests">Guests</nuxt-link>
+            <nuxt-link class="nav-link" to="/guests">Ospiti</nuxt-link>
             <a class="nav-link" target="_blank" href="mailto:bernabei.d@gmail.com">Scrivimi!</a>
           </div>
 
