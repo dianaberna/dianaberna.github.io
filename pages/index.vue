@@ -20,7 +20,7 @@
 
       <div class="mt-16 md:mt-24" role="region" aria-label="sezione tecnologie che utilizzo">
           <div class="flex justify-center items-center text-base font-semibold text-gray-600">
-            <h4 class="text-center">Alcune tecnologie che uso</h4>
+            <h4 class="text-center text-gray-700">Alcune tecnologie che uso</h4>
             <i class='bx bx-chevrons-down ml-1 mt-1'></i>
           </div>
           <div>
