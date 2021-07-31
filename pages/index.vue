@@ -3,7 +3,7 @@
     <div class="wrapper-small md:px-10">
       <div class="header mt-5">
         <Hero />
-        <h2 class="text-gray-700">I miei social</h2>
+        <!--<h2 class="text-gray-700">I miei social</h2>-->
         <Social />
       </div>
 
@@ -20,7 +20,7 @@
 
       <div class="mt-16 md:mt-24" role="region" aria-label="sezione tecnologie che utilizzo">
           <div class="flex justify-center items-center text-base font-semibold text-gray-600">
-            <h3 class="text-center text-gray-700">Alcune tecnologie che uso</h3>
+            <h3 class="text-center text-gray-700">Alcune tecnologie che utilizzo</h3>
             <i class='bx bx-chevrons-down ml-1 mt-1'></i>
           </div>
           <div>

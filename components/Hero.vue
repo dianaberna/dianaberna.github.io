@@ -4,7 +4,7 @@
       <h2 class="text-xl md:text2xl lg:text-3xl text-primary text-gray-700">Sono una sviluppatrice web freelance</h2>
       <!--<h4 class="text-lg lg:text-xl text-primary text-gray-700">In pratica cosa faccio? Costruisco la presenza online di un brand, progettando la grafica e sviluppando il codice. </h4>-->
       <!--<h2 class="text-lg lg:text-xl text-primary text-gray-700">Le community, la comunicazione e l'inclusione sono mie grandi passioni.</h2>-->
-      <p class="text-gray-700">5 parole per descrivermi: frontend, curiosità, accessibilità, empatia, condivisione </p>
+      <!--<p class="text-gray-700">5 parole per descrivermi: frontend, curiosità, accessibilità, empatia, condivisione </p>-->
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="wrapper py-4 md:py-10 lg:py-20">
-      <div class="px-10 flex justify-between items-center">
+      <div class="px-4 md:px-10 lg:px-10 flex justify-between items-center">
           <div class="logo font-rubik">
             <nuxt-link to="/">
                 <h1 class="text-2xl font-bold text-gray-700">
