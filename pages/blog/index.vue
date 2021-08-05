@@ -4,7 +4,7 @@
       <h3 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Benvenuto/a nel mio blog</h3>
     </div>
     <Search placeholder="Search posts" @search="onSearch"/>
-    <div class="my-10 border-gray-900 border-2 p-4 md:p-6 rounded-xl " v-for="post of posts" :key="post.slug">
+    <div class="my-10 border-gray-900 border-2 p-4 md:p-6 rounded-xl " v-for="post of posts.slice().reverse()" :key="post.slug">
       <div class="flex justify-between items-center">
         <span class="font-text-base text-gray-600 text-sm">{{ formatDate(post.publicationDate) }}</span>
         <span class="px-3 py-1 text-white font-text-base rounded bg-pink-800">#{{ post.tag }}</span>
