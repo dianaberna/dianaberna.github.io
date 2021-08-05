@@ -44,7 +44,7 @@
                     <p class="text-base text-gray-700 my-3">Ho a cuore il tema della partecipazione femminile nel mondo tech e STEM. Per questo da diversi anni sono WTM Ambassador. Il WTM è un programma sponsorizzato da Google per promuovere la partecipazione femminile nel mondo STEM. </p> 
                 </div>
                 <div>
-                    <a href="https://www.womentechmakers.com/" aria-label="Visita il sito women techmakers" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il sito WomenTechmakers</a>
+                    <a href="https://www.womentechmakers.com/" aria-label="Visita il sito WomenTechmakers" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il sito WomenTechmakers</a>
                 </div>
             </div>
         </div>

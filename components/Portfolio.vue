@@ -15,8 +15,8 @@
               </p> 
               </div>
           <div>
-              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il profilo dribble">
-                  <a href="https://dribbble.com/_dianacodes" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Visita il profilo Dribble</a>
+              <button class="md:px-5 lg:px-0 py-3" aria-label="Visita il mio profilo dribble">
+                  <a href="https://dribbble.com/_dianacodes" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Visita il mio profilo Dribble</a>
               </button>
           </div>
         </div>
