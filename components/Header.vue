@@ -15,7 +15,7 @@
             <nuxt-link class="nav-link" to="/portfolio">Portfolio</nuxt-link>
             <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
             <nuxt-link class="nav-link" to="/community">Community</nuxt-link>
-            <nuxt-link class="nav-link" to="/guests">Twitch</nuxt-link>
+            <nuxt-link class="nav-link" to="/live">Live</nuxt-link>
             <a class="nav-link" target="_blank" href="mailto:bernabei.d@gmail.com">Scrivimi!</a>
           </div>
 
@@ -45,8 +45,8 @@
             </nuxt-link>
             <nuxt-link to="/community" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Community</nuxt-link>
-              <nuxt-link to="/guests" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
-              Twitch</nuxt-link>
+              <nuxt-link to="/live" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
+              Live</nuxt-link>
             <a href="mailto:bernabei.d@gmail.com" target="_blank" class="mt-1 mobile-link focus:outline-none md:hover:text-gray-700">
               Scrivimi!</a>
         </div>

@@ -24,6 +24,10 @@
         <i class='bx bxl-github'></i>
       </a>
 
+      <a class="social-link hover:text-pink-600" href="https://dribbble.com/_dianacodes" target="_blank" aria-label="Github" rel="noreferrer">
+        <i class='bx bxl-dribbble'></i>
+      </a>
+
       <a class="social-link hover:text-pink-600" href="https://discord.gg/FC7sQyg8ar" target="_blank" aria-label="Discord" rel="noreferrer">
         <i class='bx bxl-discord-alt' ></i>
       </a>

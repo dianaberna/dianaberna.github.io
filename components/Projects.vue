@@ -32,6 +32,22 @@
                 </div>
             </div>
         </div>
+        <div class="project-card md:flex mt-8">
+            <div class="img max-w-lg md:max-w-sm mx-auto">
+                <a href="https://www.womentechmakers.com/" aria-label="Visita il sito women techmakers" role="button" target="_blank" rel="noreferrer">
+                    <img src="~/assets/wtm.png" class="rounded-xl border-gray-900 border-2" alt="screenshot canale twitch">
+                </a>
+            </div>
+            <div class="flex flex-col justify-between max-w-lg mx-auto">
+                <div class="txt md:px-5 lg:px-0">
+                    <h2 class="text-xl font-semibold text-gray-700">WomenTechmakers Ambassador</h2>
+                    <p class="text-base text-gray-700 my-3">Ho a cuore il tema della partecipazione femminile nel mondo tech e STEM. Per questo da diversi anni sono WTM Ambassador. Il WTM è un programma sponsorizzato da Google per promuovere la partecipazione femminile nel mondo STEM. </p> 
+                </div>
+                <div>
+                    <a href="https://www.womentechmakers.com/" aria-label="Visita il sito women techmakers" role="button" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold rounded-full" rel="noreferrer">Visita il sito WomenTechmakers</a>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

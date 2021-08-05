@@ -35,6 +35,12 @@
   "LazySearch": {
     "description": "Auto imported from /components/Search.vue"
   },
+  "Skills": {
+    "description": "Auto imported from /components/Skills.vue"
+  },
+  "LazySkills": {
+    "description": "Auto imported from /components/Skills.vue"
+  },
   "Social": {
     "description": "Auto imported from /components/Social.vue"
   },

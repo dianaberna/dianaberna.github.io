@@ -9,7 +9,7 @@ const _c869b47a = () => interopDefault(import('../pages/blog/index.vue' /* webpa
 const _55d2688a = () => interopDefault(import('../pages/community.vue' /* webpackChunkName: "pages/community" */))
 const _3e8ff2f2 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _2b17b66c = () => interopDefault(import('../pages/credits.vue' /* webpackChunkName: "pages/credits" */))
-const _78a1418e = () => interopDefault(import('../pages/guests.vue' /* webpackChunkName: "pages/guests" */))
+const _1225db8a = () => interopDefault(import('../pages/live.vue' /* webpackChunkName: "pages/live" */))
 const _69124ccc = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
 const _55c0a254 = () => interopDefault(import('../pages/projectsList.vue' /* webpackChunkName: "pages/projectsList" */))
 const _cbd6f70a = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
@@ -52,9 +52,9 @@ export const routerOptions = {
     component: _2b17b66c,
     name: "credits"
   }, {
-    path: "/guests",
-    component: _78a1418e,
-    name: "guests"
+    path: "/live",
+    component: _1225db8a,
+    name: "live"
   }, {
     path: "/portfolio",
     component: _69124ccc,

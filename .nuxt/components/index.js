@@ -4,6 +4,7 @@ export { default as Hero } from '../../components/Hero.vue'
 export { default as Portfolio } from '../../components/Portfolio.vue'
 export { default as Projects } from '../../components/Projects.vue'
 export { default as Search } from '../../components/Search.vue'
+export { default as Skills } from '../../components/Skills.vue'
 export { default as Social } from '../../components/Social.vue'
 export { default as TechStack } from '../../components/TechStack.vue'
 
@@ -13,5 +14,6 @@ export const LazyHero = import('../../components/Hero.vue' /* webpackChunkName: 
 export const LazyPortfolio = import('../../components/Portfolio.vue' /* webpackChunkName: "components/portfolio" */).then(c => c.default || c)
 export const LazyProjects = import('../../components/Projects.vue' /* webpackChunkName: "components/projects" */).then(c => c.default || c)
 export const LazySearch = import('../../components/Search.vue' /* webpackChunkName: "components/search" */).then(c => c.default || c)
+export const LazySkills = import('../../components/Skills.vue' /* webpackChunkName: "components/skills" */).then(c => c.default || c)
 export const LazySocial = import('../../components/Social.vue' /* webpackChunkName: "components/social" */).then(c => c.default || c)
 export const LazyTechStack = import('../../components/TechStack.vue' /* webpackChunkName: "components/tech-stack" */).then(c => c.default || c)
