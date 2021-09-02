@@ -21,7 +21,10 @@
           </div>
         </div>
       </div>
-      <div class="project-card md:flex mt-8">
+      <div class="text-center mt-12 font-semibold text-gray-800">
+          <p>Presto pubblicherò altri progetti... stay tuned!</p>
+      </div>
+      <!--<div class="project-card md:flex mt-8">
           <div class="img max-w-lg md:max-w-sm  mx-auto">
               <a href="https://www.vitacreattiva.it/" target="_blank" rel="noreferrer">
                 <img src="~/assets/vitacreattiva.png" class="rounded-xl border-gray-900 border-2" alt="screenshot sito vitacreattiva di stefania de cristofaro">
@@ -41,7 +44,7 @@
                   <a href="https://www.vitacreattiva.it/" target="_blank" class="bg-primary px-3 py-2 text-sm text-gray-100 font-semibold font-medium rounded-full" rel="noreferrer">Visita il sito vitacreattiva.it</a>
               </button>
           </div>
-        </div>
+        </div>-->
       </div>
   </div>
 </template>

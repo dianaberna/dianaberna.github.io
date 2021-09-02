@@ -15,7 +15,7 @@
                     </div>
                     <div class="text-gray-700">Made in Marche with <i class='bx bxs-heart' ></i></div>
                     <div>
-                        <Social />
+                        <a href="https://linktr.ee/_dianacodes" class="text-gray-700">Seguimi!</a>
                     </div>
                 </div>
             </div>

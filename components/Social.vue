@@ -4,16 +4,16 @@
         <i class='bx bxl-instagram-alt'></i>
       </a>
 
-      <a class="social-link hover:text-pink-600" href="https://twitter.com/dianabernabei" target="_blank" aria-label="Twitter" rel="noreferrer">
-        <i class='bx bxl-twitter'></i>
-      </a>
-
       <a class="social-link hover:text-pink-600" href="https://www.twitch.tv/dianacodes" target="_blank" aria-label="Twitch" rel="noreferrer">
         <i class='bx bxl-twitch'></i>
       </a>
 
       <a class="social-link hover:text-pink-600" href="https://www.youtube.com/channel/UC7isiq-qXsVTSQOMLviEC5A/" target="_blank" aria-label="YouTube" rel="noreferrer">
         <i class='bx bxl-youtube'></i>
+      </a>
+
+      <a class="social-link hover:text-pink-600" href="https://twitter.com/dianabernabei" target="_blank" aria-label="Twitter" rel="noreferrer">
+        <i class='bx bxl-twitter'></i>
       </a>
 
       <a class="social-link hover:text-pink-600" href="https://www.linkedin.com/in/dianabernabei/" target="_blank" aria-label="LinkedIn" rel="noreferrer">

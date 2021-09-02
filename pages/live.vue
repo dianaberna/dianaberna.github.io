@@ -1,16 +1,69 @@
 <template>
-  <div class="wrapper-small">
+  <div class="wrapper-small text-gray-700">
       <div class="text-center mt-2 border-b-2 pb-3">
-        <h2 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Live</h2>
+        <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">Live</h2>
       </div>
-      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Ogni giovedì nel mio canale Twitch dianacodes sono live con una nuova intervista e in questa pagina puoi trovare tutti/e gli/le ospiti con cui ho chiacchierato fino ad ora!</p>
-      <p class="text-base md:text-lg font-regular text-gray-700 mt-2">Oltre a chiaccherare in live parliamo spesso anche Discord, se ti va di unirti alla community trovi il link nella sezione Social.</p>
-      <br>
+      <p class="text-base md:text-lg font-regular mt-2">Ogni giovedì nel mio canale Twitch dianacodes sono live con una nuova intervista e in questa pagina puoi trovare tutti/e gli/le ospiti con cui ho chiacchierato fino ad ora!</p>
+      <p class="text-base md:text-lg font-regular mt-2">Oltre a chiaccherare in live parliamo spesso anche Discord, se ti va di unirti alla community trovi il link nella sezione Social.</p>
+      <br><h3 class="font-bold">Interviste - Stagione 1</h3>
+      <ol>
+        <li><a href="https://youtu.be/X7mVOUtYn2M">Alessandro Berti (Ph.D Student in Quantum Computing @ University of Pisa)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/6xre44hH92k">Giuseppe Checchia (Lead Developer)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/KyuGBZy_RqE">Fiorella De Luca (Project Manager)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/2lzy5UwVAPU">Giovanni Bartolomeo (MSc Student @ University of Pisa)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/DweqvPiFvc8">Simone Torrisi (Software Architecture Consultant | JavaScript and React specialist | Founder and Mentor @TomorrowDevs)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/eiHQ-VEFAA4">Aldo D'Aquino (Infrastructure Engineer @ Bending Spoons)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/LyhlVxR1sW8">Azzurra Ragone (Innovation and Transformation lead @ EY)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/knpPcyuuTCM">Eugenio Paluello (CTO @ Tocket)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/JcqOksg5QCw">Juna Salviati (Full Stack Developer e Co-leader del GDG Roma)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/VfWeKTaraIY">Simone Sanfratello (Senior Backend Engineer)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/5ncwldP1grA">Serena Sensini (Enterprise Architect @ Dedalus spa)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/45ZqV3oWYCM">Michel Murabito (Deputy CTO by day, Developer in the soul, Superhero wannabe by night)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/_DZgiu2w7a4">Mike Trizio (CTO | Engineer | Innovation Manager | AR/VR and AI evangelist for Industry 4.0 | Community manager | Public speaker)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/WjbZ4E4_23o">Nicola Corti (Kotlin Google Developer Expert)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/NM0M_NLq9Xc">Michela Bertaina (Community manager and event organizer @ GrUSP)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/G1bbMd4ln7U">Adriano Grimaldi (developer e istruttore frontend)</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/Fl_7mi_t_ZA">Lorenzo Pinna (Esperto di Esperienza Utente UX)</a>
+        </li>
+      </ol>
+      <!--
       <div class="grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-3">
         <div class="text-center">
           <a href="https://youtu.be/X7mVOUtYn2M">
             <img src="~/assets/guests/1.png" class="" alt="foto alessandro berti">
-            <p class="text-gray-700 font-bold">Alessandro Berti (Ph.D Student in Quantum Computing @ University of Pisa)</p>
+            <p class="text-gray-700 ">Alessandro Berti (Ph.D Student in Quantum Computing @ University of Pisa)</p>
           </a>
         </div>
         <div class="text-center">
@@ -110,6 +163,7 @@
           </a>
         </div>
       </div>
+      -->
   </div>
 </template>
 
@@ -132,5 +186,8 @@ export default {
   }
   a{
     margin-left: 1rem;
+  }
+  ol{
+    padding-left: 20px;
   }
 </style>

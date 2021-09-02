@@ -1,18 +1,10 @@
 <template>
-  <div class="wrapper-small text-center my-5">
-      <div class="text-4xl md:text-5xl text-gray-700 text-center">
-          <i class='bx bxl-html5' ></i>
-          <i class='bx bxl-css3' ></i>
-          <i class='bx bxl-sass mx-2 md:mx-4'></i>
-          <i class='bx bxl-javascript mx-2 md:mx-4'></i>
-          <i class='bx bxl-vuejs mx-2 md:mx-4' ></i>
-          <!--<i class='bx bxl-nodejs mx-2 md:mx-4' ></i>-->
-      </div>
-      <div class="text-4xl md:text-5xl text-gray-700 text-center">
-          <i class='bx bxl-git mx-2 md:mx-4'></i>
-          <i class='bx bxl-figma mx-2 md:mx-4'></i>
-          <i class='bx bx-accessibility mx-2 md:mx-4'></i>
-          <i class='bx bx-coffee' ></i>
+  <div class="wrapper-skills text-center my-5">
+      <div class="text-gray-700 text-center flex">
+            <img src="~/assets/js-brands.svg" class="logo-skills flex-1" alt="logo javascript"><br>
+            <img src="~/assets/vuejs-brands.svg" class="logo-skills flex-1" alt="logo vuejs"><br>
+            <img src="~/assets/css3-alt-brands.svg" class="logo-skills flex-1" alt="logo css3"><br>
+            <img src="~/assets/universal-access-solid.svg" class="logo-skills flex-1" alt="logo accessibilità"><br>
       </div>
   </div>
 </template>
@@ -22,3 +14,18 @@ export default {
 
 }
 </script>
+<style>
+.wrapper-skills{
+    width: 50%;
+    margin-left: 25%;
+}
+.logo-skills{
+    width: 50px;
+    height: 50px;
+    color: #2D3748;
+}
+</style>
+
+
+
+
