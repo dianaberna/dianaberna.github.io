@@ -30,9 +30,27 @@
           </a>
         </div>
         <div class="text-center">
+          <a href="https://shetechitaly.org/">
+            <img src="~/assets/community/shetech.png" class="" alt="logo she tech italy">
+            <p class="text-gray-700 font-bold">SheTech</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://www.superheroesvalley.fun/">
+            <img src="~/assets/community/superheroesvalley.png" class="" alt="logo super heroes valley">
+            <p class="text-gray-700 font-bold">Super Heroes Valley</p>
+          </a>
+        </div>
+        <div class="text-center">
           <a href="https://www.theredcode.it/">
             <img src="~/assets/community/theredcode.png" class="" alt="logo the red code">
             <p class="text-gray-700 font-bold">theRedCode</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="https://www.tomorrowdevs.com/">
+            <img src="~/assets/community/td.png" class="" alt="logo tomorrow devs">
+            <p class="text-gray-700 font-bold">TomorrowDevs</p>
           </a>
         </div>
         <div class="text-center">

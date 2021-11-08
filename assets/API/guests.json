@@ -1,0 +1,169 @@
+[
+    {
+        "name" : "Alessandro Berti",
+        "job"   : "Ph.D Student in Quantum Computing @ University of Pisa",
+        "date"  : "01/04/2021",
+        "youtube" : "https://youtu.be/X7mVOUtYn2M",
+        "season" : "1"
+    },
+    {
+        "name" : "Giuseppe Checchia",
+        "job"   : "Lead Developer",
+        "date"  : "08/04/2021",
+        "youtube" : "https://youtu.be/6xre44hH92k",
+        "season" : "1"
+    },
+    {
+        "name" : "Fiorella De Luca",
+        "job"   : "Project Manager",
+        "date"  : "15/04/2021",
+        "youtube" : "https://youtu.be/KyuGBZy_RqE",
+        "season" : "1"
+    },
+    {
+        "name" : "Giovanni Bartolomeo",
+        "job"   : "MSc Student @ University of Pisa",
+        "date"  : "22/04/2021",
+        "youtube" : "https://youtu.be/2lzy5UwVAPU",
+        "season" : "1"
+    },
+    {
+        "name" : "Simone Torrisi",
+        "job"   : "Software Architecture Consultant | JavaScript and React specialist | Founder and Mentor @TomorrowDevs",
+        "date"  : "29/04/2021",
+        "youtube" : "https://youtu.be/DweqvPiFvc8",
+        "season" : "1"
+    },
+    {
+        "name" : "Aldo D'Aquino",
+        "job"   : "Infrastructure Engineer @ Bending Spoons",
+        "date"  : "06/05/2021",
+        "youtube" : "https://youtu.be/eiHQ-VEFAA4",
+        "season" : "1"
+    },
+    {
+        "name" : "Azzurra Ragone",
+        "job"   : "Innovation and Transformation lead @ EY",
+        "date"  : "13/05/2021",
+        "youtube" : "https://youtu.be/LyhlVxR1sW8",
+        "season" : "1"
+    },
+    {
+        "name" : "Eugenio Paluello",
+        "job"   : "CTO @ Tocket",
+        "date"  : "20/05/2021",
+        "youtube" : "https://youtu.be/knpPcyuuTCM",
+        "season" : "1"
+    },
+    {
+        "name" : "Juna Salviati ",
+        "job"   : "Full Stack Developer e Co-leader del GDG Roma",
+        "date"  : "27/05/2021",
+        "youtube" : "https://youtu.be/JcqOksg5QCw",
+        "season" : "1"
+    },
+    {
+        "name" : "Simone Sanfratello",
+        "job"   : "Senior Backend Engineer",
+        "date"  : "03/06/2021",
+        "youtube" : "https://youtu.be/VfWeKTaraIY",
+        "season" : "1"
+    },
+    {
+        "name" : "Serena Sensini",
+        "job"   : "Enterprise Architect @ Dedalus spa",
+        "date"  : "10/06/2021",
+        "youtube" : "https://youtu.be/5ncwldP1grA",
+        "season" : "1"
+    },
+    {
+        "name" : "Michel Murabito",
+        "job"   : "Deputy CTO by day, Developer in the soul, Superhero wannabe by night",
+        "date"  : "17/06/2021",
+        "youtube" : "https://youtu.be/45ZqV3oWYCM",
+        "season" : "1"
+    },
+    {
+        "name" : "Mike Trizio",
+        "job"   : "CTO | Engineer | Innovation Manager | AR/VR and AI evangelist for Industry 4.0 | Community manager | Public speaker",
+        "date"  : "24/06/2021",
+        "youtube" : "https://youtu.be/_DZgiu2w7a4",
+        "season" : "1"
+    },
+    {
+        "name" : "Nicola Corti",
+        "job"   : "Kotlin Google Developer Expert",
+        "date"  : "01/07/2021",
+        "youtube" : "https://youtu.be/WjbZ4E4_23o",
+        "season" : "1"
+    },
+    {
+        "name" : "Michela Bertaina",
+        "job"   : "Community manager and event organizer @ GrUSP",
+        "date"  : "08/07/2021",
+        "youtube" : "https://youtu.be/NM0M_NLq9Xc",
+        "season" : "1"
+    },
+    {
+        "name" : "Adriano Grimaldi",
+        "job"   : "developer e istruttore frontend",
+        "date"  : "15/07/2021",
+        "youtube" : "https://youtu.be/G1bbMd4ln7U",
+        "season" : "1"
+    },
+    {
+        "name" : "Lorenzo Pinna",
+        "job"   : "Esperto di Esperienza Utente UX",
+        "date"  : "22/07/2021",
+        "youtube" : "https://youtu.be/Fl_7mi_t_ZA",
+        "season" : "1"
+    },
+    {
+        "name" : "Francesco Sciuti",
+        "job"   : "CEO@Devmy, Google Developer Expert (GDE), Microsoft MVP, Google Certified Developer, Projects Manager, Software Engineer, Speaker/Evangelist/Trainer, AWS UG CT Lead",
+        "date"  : "09/09/2021",
+        "youtube" : "https://youtu.be/yKLiyeBKYY0",
+        "season" : "2",
+        "social" : "https://www.linkedin.com/in/francescosciuti/"
+    },
+    {
+        "name" : "Lorenzo De Francesco",
+        "job"   : "Team Leader Frontend & Full Stack Senior Software Engineer",
+        "date"  : "16/09/2021",
+        "youtube" : "https://youtu.be/gys8BrB47SE",
+        "season" : "2",
+        "social" : "https://www.linkedin.com/in/lorenzodefrancesco/"
+    },
+    {
+        "name" : "Stefano Le Pera",
+        "job"   : "Senior Front End Engineer at Virgin Red, Co-Organiser and Mentor at GDG Cloud London",
+        "date"  : "22/09/2021",
+        "youtube" : "https://youtu.be/xJmUQQce964",
+        "season" : "2",
+        "social" : "https://www.linkedin.com/in/stefanolepera/"
+    },
+    {
+        "name" : "Francesco Ciulla",
+        "job"   : "Docker Content, 4C Community Founder, Docker Captain, Dev Advocate, Introvertube",
+        "date"  : "30/09/2021",
+        "youtube" : "https://youtu.be/bbCVz2i06S0",
+        "season" : "2",
+        "social" : "https://twitter.com/FrancescoCiull4"
+    },
+    {
+        "name" : "Emanuele Bartolesi",
+        "job"   : "Microsft 365 Architect e CTO for Early Stage Startups",
+        "date"  : "07/10/2021",
+        "youtube" : "https://youtu.be/lE0HBjeyHVI",
+        "season" : "2",
+        "social" : "https://twitter.com/kasuken"
+    },
+    {
+        "name" : "Niko Usai",
+        "job"   : "Solution Architect @Sourcesense & Open Source enthusiast",
+        "date"  : "16/09/2021",
+        "youtube" : "https://youtu.be/HEc19cvk2_E",
+        "season" : "2",
+        "social" : "https://www.linkedin.com/in/nikousai/"
+    }
+]

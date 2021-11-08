@@ -46,7 +46,7 @@
           <li>( 2021 ) Laurea triennale in <span class="font-bold">INFORMATICA</span> presso l'<span class="font-bold">Università di Camerino</span> </li>
           <li>( 2018 - 2021 ) Laurea triennale in <span class="font-bold">INFORMATICA</span> (non conclusa) presso l'<span class="font-bold">Università di Pisa</span> (Esami: Ricerca operativa, Architettura degli elaboratori, Logica per la programmazione, Progettazione grafica, Algortimica, Progettazione d'interfaccie, Sistemi operativi)</li>
           <li>( 2013 - 2018 ) Laurea triennale in <span class="font-bold">INGEGNERIA INFORMATICA</span> (non conclusa) presso l'<span class="font-bold">Università di Pisa</span> (Esami: Analisi 1, Analisi 2, Algebra, Calcolo Numerico, Fisica, Fondamenti di Informatica 1, Progettazione Web, Ingegneria del software, Elettrotecnica, Basi di dati, Fondamenti di automatica)</li>
-          <li>( 2009 - 2013 ) Diploma scuola superiore specializzazione <span class="font-bold">INFORMATICA</span> presso <span class="font-bold">ITIS “G. e M. Montani”</span> di Fermo - Voto 100/100</li>
+          <li>( 2009 - 2013 ) Diploma scuola superiore specializzazione <span class="font-bold">INFORMATICA</span> presso <span class="font-bold">ITIS “G. e M. Montani”</span> di Fermo - Voto 100/100 - Linguaggi: Assembly, C, COBOL, Javascript, PASCAL, PHP, SQL</li>
         </ul>
       </div>
       <div class="text-base md:text-lg font-regular text-gray-700 mt-2">

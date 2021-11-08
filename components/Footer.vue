@@ -13,7 +13,7 @@
                             <a href="https://www.iubenda.com/privacy-policy/83839726" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe underline" title="Privacy Policy " role="region" aria-label="privacy policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script> 
                         </div>
                     </div>
-                    <div class="text-gray-700">Made in Marche with <i class='bx bxs-heart' ></i></div>
+                   
                     <div>
                         <a href="https://linktr.ee/_dianacodes" class="text-gray-700">Seguimi!</a>
                     </div>
