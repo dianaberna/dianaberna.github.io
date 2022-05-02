@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build --prod",
     "lint": "eslint --fix --ext .js,.jsx ./src/ --ignore-pattern node_modules/",
     "deploy": "push-dir --dir=build --branch=gh-pages --cleanup"
   },
