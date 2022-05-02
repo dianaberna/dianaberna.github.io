@@ -38,7 +38,7 @@ export default function App() {
             /* debug={true} */
             location="bottom"
             cookieName="CookieConsent"
-            style={{ background: '#000', padding: '0.2rem 2rem' }}
+            style={{ background: '#000', padding: '0.2rem 1rem' }}
             expires={150}
             hideOnAccept={true}
             buttonText="Accetto che utilizzi i cookie!"
@@ -62,8 +62,8 @@ export default function App() {
             <div className="flex flex-row gap-4 items-center ">
               <svg
                 aria-hidden={true}
-                width="1rem"
-                height="1rem"
+                width="2.5rem"
+                height="2.5rem"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
                 fill="#fff"

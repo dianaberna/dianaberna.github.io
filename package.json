@@ -2,7 +2,7 @@
   "name": "diana-bernabei-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dianabernabei.com",
+  "homepage": "https://www.dianabernabei.com",
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^5.0.0",
     "ckeditor5-custom-build": "file:ckeditor5",
