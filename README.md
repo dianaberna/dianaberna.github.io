@@ -1,7 +1,5 @@
 # My personal website 
 
-I used Monotone theme
-
 ## Build Setup
 
 ```bash
@@ -18,5 +16,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

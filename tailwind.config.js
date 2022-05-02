@@ -1,23 +1,20 @@
+/* eslint-disable */
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
-  purge: [],
-  theme: {
-    extend: {
-      colors:{
-        'primary': '#2d3748',
-        'accent': '#FF0066'
-      },
+    content: [
+        './src/**/*.{html,js}',
+        './src/**/*.{html,js,jsx}'
+      ],
+    theme: {
       fontFamily: {
-        'rubik': ['Rubik', 'sans-serif'],
-        'poppins': ['Poppins', 'sans-serif'],
-      }
+        'Outfit': ['Outfit'],
+        'Rubik': ['Rubik']
+      },
+      extend: {
+        fontSize: {
+          'xl': ['1.25rem', '1.5'],
+          '2xl': ['1.5rem', '1.5'],
+        }
+      },
     },
-  },
-  variants: {},
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-}
+    plugins: [],
+  }
