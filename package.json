@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint --fix --ext .js,.jsx ./src/ --ignore-pattern node_modules/",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=build --branch=gh-pages --cleanup"
   },
   "browserslist": {
     "production": [
