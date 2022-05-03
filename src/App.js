@@ -5,7 +5,7 @@ import UpdatePost from './pages/UpdatePost'
 import { Blog } from './Blog'
 import { About } from './About'
 import Home from './Home'
-import Post from './blog/post'
+import Post from './Post'
 import { Navbar } from './Navbar'
 import { Footer } from './Footer'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
@@ -92,7 +92,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog isAuth={isAuth} />} />
-          <Route path="/blog/:id" element={<Post isAuth={isAuth} />} />
+          <Route path="/blog/:id/:slug" element={<Post isAuth={isAuth} />} />
           <Route path="/chisono" element={<About />} />
           <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
           <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />

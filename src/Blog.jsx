@@ -110,7 +110,7 @@ export const Blog = ({ isAuth }) => {
                     }}
                     className="pb-2"
                   />
-                  <Link to={`/blog/${post.id}`}>
+                  <Link to={`/blog/${post.id}/${post.slug}`}>
                     <span className="underline text-sm font-bold">
                       Continua a leggere l'articolo "{post.title}"
                     </span>
