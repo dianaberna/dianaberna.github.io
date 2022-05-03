@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useLayoutEffect } from 'react'
 import Login from './pages/Login'
 import CreatePost from './pages/CreatePost'
 import UpdatePost from './pages/UpdatePost'
@@ -15,8 +15,16 @@ import './index.css'
 import CookieConsent from 'react-cookie-consent'
 import { signOut } from 'firebase/auth'
 import { auth } from './firebase-config'
+import { createBrowserHistory } from 'history'
+
+const history = createBrowserHistory()
 
 export default function App() {
+  const [state, setState] = useState({
+    action: history.action,
+    location: history.location,
+  })
+  useLayoutEffect(() => history.listen(setState), [history])
   const [isAuth, setIsAuth] = useState(localStorage.getItem('"isAuth"'))
 
   const signUserOut = () => {
@@ -27,7 +35,11 @@ export default function App() {
     })
   }
   return (
-    <Router>
+    <Router
+      location={state.location}
+      navigationType={state.action}
+      navigator={history}
+    >
       <div className="px-10 py-5 md:px-40 md:pt-20">
         <nav className="text-black flex flex-col md:flex-row justify-between items-center">
           <div>
