@@ -99,10 +99,12 @@ export const Blog = ({ isAuth }) => {
                     {post.title}
                     {post.draft == true ? '♻️' : null}
                   </h2>
+                  <p className="text-base">{post.date}</p>
                   <p className="text-base font-bold">
                     {post.tag == '' ? null : '#'}
                     {post.tag}
                   </p>
+
                   {isAuth ? <p className="text-sm">{post.date}</p> : null}
                   <div
                     dangerouslySetInnerHTML={{
@@ -127,67 +129,3 @@ export const Blog = ({ isAuth }) => {
 Blog.propTypes = {
   isAuth: PropTypes.bool,
 }
-
-/* export const LastPosts = () => {
-  const [Posts, setPosts] = useState([])
-
-  function retrieveBlogDatatable() {
-    fetch(
-      `https://notion-api.splitbee.io/v1/table/${process.env.REACT_APP_NOTION_BLOG_ID}`
-    )
-      .then((res) => {
-        if (res.ok) {
-          return res.json()
-        }
-        throw res
-      })
-      .then((post) => {
-        setPosts(post)
-      })
-      .catch((error) => {
-        console.error('error tetching data: ', error)
-      })
-  }
-
-  useEffect(() => {
-    retrieveBlogDatatable()
-  }, [])
-
-  return (
-    <div className="mt-20 px-10 py-10 md:px-20 md:py-14 border-2 border-black shadow-[5px_5px_0px_rgba(0,0,0)] bg-white">
-      <h2 className="">Ultimi articoli</h2>
-      <div>
-        {Posts.slice(-3)
-          .reverse()
-          .map((post, index) => (
-            <div className="w-full flex flex-row justify-between" key={index}>
-              <div className="w-full mt-6">
-                <p className="flex items-center">
-                  {post.tag.map((e, tIndex) => (
-                    <span
-                      key={tIndex}
-                      className="border border-black rounded px-1 py-1 mr-1 text-sm font-medium"
-                    >
-                      {e}
-                    </span>
-                  ))}
-                </p>
-                <p className="text-xl font-bold mt-2">
-                  {index === 0 ? <span aria-hidden={true}>🆕 </span> : null}
-                  {post.title}
-                </p>
-                <p className="">{post.intro}</p>
-                <Link to={`/blog/${post.id}/${post.slug}`}>
-                  <span className="underline text-sm font-bold">
-                    Leggi l'articolo "{post.title}"
-                  </span>
-                </Link>
-              </div>
-            </div>
-          ))}
-      </div>
-    </div>
-  )
-}
-
- */

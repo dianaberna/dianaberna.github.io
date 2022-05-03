@@ -23,9 +23,6 @@ export const Footer = () => {
               Developed and Designed by Diana Bernabei
             </span>
             <span className="mt-7 md:mt-1 text-sm">P.IVA 02430130449</span>
-            <span className="text-sm font-bold pt-4">
-              <Link to="/login">Admin</Link>
-            </span>
           </div>
         </div>
       </div>

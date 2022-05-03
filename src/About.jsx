@@ -150,11 +150,16 @@ export const About = () => {
         <ul className="list-disc ml-5">
           <li>
             ( 2022 ) MC Devcast Serie Frontend di Codemotion{' '}
-            <a href="/">"Frontend, al di là di JavaScript"</a>
+            <a href="/" className="underline">
+              "Frontend, al di là di JavaScript"
+            </a>
           </li>
           <li>
             ( 2021 ) MC Devcast Serie Frontend di Codemotion{' '}
-            <a href="https://live.codemotion.com/devcast/la-compagnia-del-frontend">
+            <a
+              href="https://live.codemotion.com/devcast/la-compagnia-del-frontend"
+              className="underline"
+            >
               "La compagnia del frontend"
             </a>
           </li>
