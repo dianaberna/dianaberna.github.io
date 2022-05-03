@@ -19,7 +19,7 @@ export const Community = () => {
               href={e.link}
               className="flex flex-col items-center justify-center"
             >
-              <img src={`./assets/community/${e.file}`} alt="" />
+              <img src={`./assets/community/${e.file}`} alt={e.name + 'logo'} />
               <p>{e.name}</p>
             </a>
           </div>

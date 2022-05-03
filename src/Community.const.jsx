@@ -25,7 +25,12 @@ export const COMMUNITY = [
     link: 'https://www.grusp.org/',
   },
   {
-    file: 'pausacaffè.png',
+    file: 'minotauro.png',
+    name: 'Podcast Minotauro',
+    link: 'https://open.spotify.com/show/1XaQbngzCCwAnnVM5epDS0',
+  },
+  {
+    file: 'pausacaffe.png',
     name: 'Pausa Caffè',
     link: 'https://pausacaffe.live/',
   },

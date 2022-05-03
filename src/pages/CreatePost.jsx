@@ -5,8 +5,7 @@ import { db, auth } from '../firebase-config'
 import { useNavigate } from 'react-router-dom'
 import { CKEditor } from '@ckeditor/ckeditor5-react'
 import Editor from 'ckeditor5-custom-build/build/ckeditor'
-/* import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor' */
-/* import ClassicEditor from './public/plugins/ckeditor/ckeditor.js' */
+
 function CreatePost({ isAuth }) {
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')

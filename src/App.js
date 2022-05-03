@@ -8,6 +8,7 @@ import Home from './Home'
 import Post from './Post'
 import { Navbar } from './Navbar'
 import { Footer } from './Footer'
+import { Talks } from './Talks'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import './index.css'
@@ -94,6 +95,7 @@ export default function App() {
           <Route path="/blog" element={<Blog isAuth={isAuth} />} />
           <Route path="/blog/:id/:slug" element={<Post isAuth={isAuth} />} />
           <Route path="/chisono" element={<About />} />
+          <Route path="/talks" element={<Talks />} />
           <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
           <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />
           <Route

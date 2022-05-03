@@ -218,47 +218,6 @@ export const About = () => {
       </div>
       <div className="text-base md:text-lg text-black mt-2">
         <h3 className="text-xl md:text-2xl lg:text-3xl text-primary text-black">
-          Talks
-        </h3>
-        <ul className="list-disc ml-5">
-          <li>
-            ( 02/2022 ) “Developer e accessibilità sono nemici per natura?”
-            UGIdotNET{' '}
-            <a
-              className="underline text-sm font-bold"
-              href="https://www.youtube.com/watch?v=ZZ4J7Zx6MK4"
-            >
-              guarda il video
-            </a>{' '}
-            <a href="/" className="underline text-sm font-bold">
-              scarica le slide
-            </a>
-          </li>
-          <li>
-            ( 12/2021 ) “Vue.js e l'accessibilità: il Dom virtuale per
-            affrontare un problema reale” GDG Cloud Torino
-          </li>
-          <li>
-            Codemotion 2021
-            <a href="https://talks.codemotion.com/tutte-le-strade-che-passano-dal-frontend">
-              Guarda il video dell'evento
-            </a>
-          </li>
-          <li>( 12/2019 ) “Come tenere un talk (con workshop) v4” GDG Pisa</li>
-          <li>( 11/2019 ) “Come tenere un talk v3” DevFest Urbino</li>
-          <li>( 11/2019 ) “Come tenere un talk v2” DevFest Pescara</li>
-          <li>( 11/2019 ) “L’importanza della community” Linux Day Pisa</li>
-          <li>( 10/2019 ) “WebDev for Dummies” GDG Pisa</li>
-          <li>
-            ( 09/2019 ) “Autopromozione” WTM Pisa Meetup (con Chiara Corrado)
-          </li>
-          <li>( 05/2019 ) “Stories, advices and a pinch of bits” GDG Torino</li>
-          <li>( 04/2019 ) “Come tenere un talk v1” DevFest Pisa 1.0</li>
-          <li>( 2018 ) “Bootstrap: from Zero to Hero” GDG Genova</li>
-        </ul>
-      </div>
-      <div className="text-base md:text-lg text-black mt-2">
-        <h3 className="text-xl md:text-2xl lg:text-3xl text-primary text-black">
           Educazione
         </h3>
         <ul className="list-disc ml-5">
