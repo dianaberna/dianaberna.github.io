@@ -11,9 +11,6 @@ export const Navbar = () => {
         <Link to="/blog">blog</Link>
       </div>
       <div className="py-2 px-6 font-medium text-lg hover:underline hover:decoration-2">
-        <Link to="/talks">talks</Link>
-      </div>
-      <div className="py-2 px-6 font-medium text-lg hover:underline hover:decoration-2">
         <Link to="/chisono">chi sono</Link>
       </div>
       <div className="py-2 px-6 font-medium text-lg hover:underline hover:decoration-2">
