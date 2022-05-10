@@ -7,8 +7,9 @@ import { SocialLite } from './Social'
 const Home = () => {
   return (
     <main>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row">
         <Header />
+        <div className="w-1/5"></div>
         <Calendar />
       </div>
       <Servizi />
@@ -21,7 +22,7 @@ export default Home
 
 const Header = () => {
   return (
-    <header className="mt-14 md:mt-52">
+    <header className="mt-14 md:mt-52 lg:w-2/5">
       <p className="text-2xl font-normal md:flex md:text-4xl md:my-2 leading-relaxed">
         Ciao! Sono Diana
       </p>
@@ -92,7 +93,7 @@ const Header = () => {
 
 const Calendar = () => {
   return (
-    <div className="mt-10 md:mt-28 md:ml-60">
+    <div className="mt-10 lg:w-2/5">
       <h2>Prossimi eventi a cui parteciperò</h2>
       <div className="flex flex-col md:flex-row gap-10">
         <div className="flex flex-col border-solid border-2 border-black p-4 w-[200px] relative mt-10">
