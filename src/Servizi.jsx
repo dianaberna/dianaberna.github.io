@@ -83,11 +83,24 @@ export const Servizi = () => {
               strokeLinecap="round"
             />
           </svg>
-          <p>
-            Sono disponibile per <b>consulenze</b>, <b>formazione</b>,
-            <b> talk/workshop</b>, <b> sviluppo autonomo</b> e per
-            <b> collaborazioni</b> con aziende e freelance.
-          </p>
+          <h3 className="block font-lg">Sono disponibile per</h3>
+        </div>
+        <div className="mt-4">
+          <div>
+            <p> 🧐 consulenze</p>
+          </div>
+          <div>
+            <p> 🧑‍🏫 formazione</p>
+          </div>
+          <div>
+            <p> 🎤 talk/workshop</p>
+          </div>
+          <div>
+            <p> 💻 sviluppo autonomo</p>
+          </div>
+          <div>
+            <p> 🤝 collaborazioni con aziende e freelance</p>
+          </div>
         </div>
       </div>
     </div>

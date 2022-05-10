@@ -32,7 +32,16 @@ export const Blog = ({ isAuth }) => {
     setLoader(true)
     setTimeout(() => getPosts(), 500)
   }, [])
-
+  function getCurrentDate() {
+    let newDate = new Date()
+    let date = newDate.getDate()
+    let month = newDate.getMonth() + 1
+    let year = newDate.getFullYear()
+    let separator = '-'
+    return `${year}${separator}${
+      month < 10 ? `0${month}` : `${month}`
+    }${separator}${date}`
+  }
   return (
     <main className="mt-4 md:mt-20">
       <h1 className="mb-10 md:mb-20">Blog</h1>
@@ -73,7 +82,9 @@ export const Blog = ({ isAuth }) => {
         postLists
           .sort((a, b) => new Date(b.date) - new Date(a.date))
           .map((post, index) =>
-            isAuth || post.draft === false ? (
+            isAuth ||
+            (post.draft === false &&
+              new Date(post.date) < new Date(getCurrentDate()) === true) ? (
               <div
                 className="flex flex-row justify-between mb-4 p-4 border-2 border-black"
                 key={index}
@@ -105,7 +116,6 @@ export const Blog = ({ isAuth }) => {
                     {post.tag}
                   </p>
 
-                  {isAuth ? <p className="text-sm">{post.date}</p> : null}
                   <div
                     dangerouslySetInnerHTML={{
                       __html: post.content.substring(0, 300),

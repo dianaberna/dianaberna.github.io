@@ -447,6 +447,15 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 1536px;
   }
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.right-\[20px\] {
+  right: 20px;
+}
 .float-right {
   float: right;
 }
@@ -502,11 +511,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-mt-8 {
   margin-top: -2rem;
 }
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .mt-10 {
   margin-top: 2.5rem;
+}
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+.mt-6 {
+  margin-top: 1.5rem;
 }
 .mt-40 {
   margin-top: 10rem;
@@ -541,6 +556,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-px {
   height: 1px;
 }
+.h-\[20px\] {
+  height: 20px;
+}
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -561,6 +579,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-11 {
   width: 2.75rem;
+}
+.w-\[200px\] {
+  width: 200px;
+}
+.w-\[5px\] {
+  width: 5px;
 }
 .w-1\/6 {
   width: 16.666667%;
@@ -1304,6 +1328,10 @@ html{
 
   .md\:mt-52 {
     margin-top: 13rem;
+  }
+
+  .md\:ml-60 {
+    margin-left: 15rem;
   }
 
   .md\:mr-0 {

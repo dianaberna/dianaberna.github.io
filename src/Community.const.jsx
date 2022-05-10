@@ -10,6 +10,11 @@ export const COMMUNITY = [
     link: 'https://www.codemotion.com/',
   },
   {
+    file: 'dina.png',
+    name: 'DInA Tech Hub',
+    link: 'https://sites.google.com/view/dina-tech-hub',
+  },
+  {
     file: 'fuzzybrains.png',
     name: 'FuzzyBrains',
     link: 'https://www.fuzzybrains.org/it/',
