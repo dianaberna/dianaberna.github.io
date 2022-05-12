@@ -1,4 +1,27 @@
 import { COMMUNITY } from './Community.const'
+import PropTypes from 'prop-types'
+
+const ImgWithFallback = ({
+  src,
+  fallback,
+  type = 'image/webp',
+  alt,
+  ...delegated
+}) => {
+  return (
+    <picture>
+      <source srcSet={src} type={type} />
+      <img src={fallback} {...delegated} alt={alt} />
+    </picture>
+  )
+}
+
+ImgWithFallback.propTypes = {
+  src: PropTypes.string,
+  fallback: PropTypes.string,
+  type: PropTypes.string,
+  alt: PropTypes.string,
+}
 
 export const Community = () => {
   return (
@@ -21,7 +44,11 @@ export const Community = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={`./assets/community/${e.file}`} alt={e.name + 'logo'} />
+              <ImgWithFallback
+                src={`./assets/community/${e.fileCompr}`}
+                fallback={`./assets/community/${e.file}`}
+                alt={e.name + 'logo'}
+              />
               <p className="underline text-sm font-bold">{e.name}</p>
             </a>
           </div>
