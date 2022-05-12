@@ -5,8 +5,10 @@
   "homepage": "https://www.dianabernabei.com",
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^5.0.0",
+    "@fullhuman/postcss-purgecss": "^4.1.3",
     "@tanem/react-nprogress": "^5.0.0",
     "ckeditor5-custom-build": "file:ckeditor5",
+    "cssnano": "^5.1.7",
     "firebase": "^9.6.11",
     "prop-types": "^15.8.1",
     "react": "^18.0.0",
