@@ -1,10 +1,9 @@
-import React, { useState, useEffect, Suspense, lazy } from 'react'
+import React, { useState, Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { NProgress } from '@tanem/react-nprogress'
 
-import Login from './pages/Login'
-import CreatePost from './pages/CreatePost'
-import UpdatePost from './pages/UpdatePost'
+const Login = lazy(() => import('./pages/Login'))
+const CreatePost = lazy(() => import('./pages/CreatePost'))
+const UpdatePost = lazy(() => import('./pages/UpdatePost'))
 
 const About = lazy(() => import('./About'))
 const Blog = lazy(() => import('./Blog'))
@@ -31,7 +30,7 @@ export default function App() {
   }
 
   return (
-    <Suspense fallback={<div>Loading</div>}>
+    <Suspense fallback={<div></div>}>
       <Router>
         <div className="px-10 py-5 md:px-40 md:pt-20">
           <nav className="text-black flex flex-col md:flex-row justify-between items-center">
