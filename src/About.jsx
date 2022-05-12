@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const About = () => {
+const About = () => {
   return (
     <main className="mt-20">
       <div className="text-base md:text-lg text-black mt-2">
@@ -255,3 +255,5 @@ export const About = () => {
     </main>
   )
 }
+
+export default About

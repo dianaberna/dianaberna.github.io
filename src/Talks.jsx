@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
+import Calendar from './Calendar'
 
-export const Talks = () => {
+const Talks = () => {
   return (
     <main className="mt-4 md:mt-20">
       <h1 className="mb-10 md:mb-20">Talks</h1>
@@ -9,7 +10,12 @@ export const Talks = () => {
       <ul className="list-disc ml-5">
         <li>( 06/2022 ) WebMarketingFestival 2022 (Rimini)</li>
         <li>( 06/2022 ) PyCon 2022 (Firenze)</li>
+        <li>( 05/2022 ) Codemotion Workshop Fest (online)</li>
         <li>( 05/2022 ) Accessibility Days (Milano)</li>
+        <li>
+          ( 05/2022 ) Meetup "Accessibilità e tecnologia, da che parte{' '}
+          cominciare?" MiaPlatform (Online)
+        </li>
         <li>
           ( 04/2022 ) CSSDay 2022 (Faenza){' '}
           <a
@@ -169,3 +175,5 @@ export const Talks = () => {
 Talks.propTypes = {
   isAuth: PropTypes.bool,
 }
+
+export default Talks

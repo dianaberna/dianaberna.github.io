@@ -13,7 +13,7 @@ import {
 import { db, auth } from './firebase-config'
 import { useNavigate } from 'react-router-dom'
 
-export const Blog = ({ isAuth }) => {
+const Blog = ({ isAuth }) => {
   const [postLists, setPostList] = useState([])
   const [Loader, setLoader] = useState(false)
   const postsCollectionRef = collection(db, 'posts')
@@ -139,3 +139,5 @@ export const Blog = ({ isAuth }) => {
 Blog.propTypes = {
   isAuth: PropTypes.bool,
 }
+
+export default Blog

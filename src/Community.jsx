@@ -49,7 +49,9 @@ export const Community = () => {
                 fallback={`./assets/community/${e.file}`}
                 alt={e.name + 'logo'}
               />
-              <p className="underline text-sm font-bold">{e.name}</p>
+              <p className="underline underline-offset-2 text-sm font-bold">
+                {e.name}
+              </p>
             </a>
           </div>
         ))}

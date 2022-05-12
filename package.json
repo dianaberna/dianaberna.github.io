@@ -5,6 +5,7 @@
   "homepage": "https://www.dianabernabei.com",
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^5.0.0",
+    "@tanem/react-nprogress": "^5.0.0",
     "ckeditor5-custom-build": "file:ckeditor5",
     "firebase": "^9.6.11",
     "prop-types": "^15.8.1",

@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { Navbar } from './Navbar'
+import Navbar from './Navbar'
 import { Social } from './Social'
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="mt-28 md:mt-28 px-10 py-1 md:py-10 bg-white dark:bg-black text-2 text-gray-500 dark:text-white transition-colors duration-200">
       <div className="flex flex-col">
@@ -29,3 +29,5 @@ export const Footer = () => {
     </footer>
   )
 }
+
+export default Footer

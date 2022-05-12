@@ -25,10 +25,21 @@ p, span, li {
 a, button{
   @apply focus:outline-black focus:outline-dashed focus:outline-offset-2 focus:outline-2;
 }
+button{
+  @apply hover:no-underline;
+}
+a{
+  @apply hover:underline hover:decoration-2;
+}
 footer a{
   @apply focus:outline-white focus:outline-dashed focus:outline-offset-2 focus:outline-2;
 }
-
+a svg{
+  @apply hover:fill-indigo-600;
+}
+footer a svg{
+  @apply hover:fill-indigo-200;
+}
 
 html{
   font-family: 'Outfit', sans-serif;
