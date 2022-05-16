@@ -4,7 +4,10 @@ import { SocialLite } from './Social'
 const Header = () => {
   return (
     <header className="mt-14 md:mt-52 lg:w-2/5">
-      <p className="text-2xl font-normal md:flex md:text-4xl md:my-2 leading-relaxed">
+      <p
+        className="text-2xl font-normal md:flex md:text-4xl md:my-2 leading-relaxed"
+        id="main"
+      >
         Ciao! Sono Diana
       </p>
       <p className="md:flex text-xl md:text-3xl font-light mb-10 leading-relaxed">

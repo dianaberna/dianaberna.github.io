@@ -33,6 +33,13 @@ export default function App() {
     <Suspense fallback={<div></div>}>
       <Router>
         <div className="px-10 py-5 md:px-40 md:pt-20">
+          <Link
+            to="/#main"
+            className="absolute -mt-40 focus:-mt-6"
+            tabIndex="0"
+          >
+            Salta la navigazione e vai al contentuto principale
+          </Link>
           <nav className="text-black flex flex-col md:flex-row justify-between items-center">
             <div>
               <Link to="/">
