@@ -43,7 +43,7 @@ export default function App() {
           <nav className="text-black flex flex-col md:flex-row justify-between items-center">
             <div>
               <Link to="/">
-                <h1 aria-label="Diana Bernabei">{`<D/>`}</h1>
+                <h1 aria-label="Diana Bernabei">🏳️‍🌈{` <D/> `}🏳️‍🌈</h1>
               </Link>
             </div>
             <CookieConsent
