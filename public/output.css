@@ -126,7 +126,8 @@ button {
 */
 
 button,
-[type='button'] {
+[type='button'],
+[type='submit'] {
   -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
@@ -448,6 +449,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 .list-disc {
   list-style-type: disc;
 }
@@ -459,6 +463,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.content-center {
+  align-content: center;
 }
 .items-center {
   align-items: center;
@@ -475,11 +482,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between {
   justify-content: space-between;
 }
-.gap-4 {
-  gap: 1rem;
-}
 .gap-10 {
   gap: 2.5rem;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .gap-5 {
   gap: 1.25rem;
@@ -593,9 +600,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-medium {
   font-weight: 500;
 }
-.leading-relaxed {
-  line-height: 1.625;
-}
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -662,9 +666,10 @@ p, span, li {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 300;
+  line-height: 1.5 !important;
   letter-spacing: 0.05em;
 }
-a:focus, button:focus {
+a:focus, button:focus, input:focus {
   outline-style: dashed;
   outline-width: 2px;
   outline-offset: 2px;

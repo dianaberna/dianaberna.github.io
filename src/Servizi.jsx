@@ -21,6 +21,7 @@ export const Servizi = () => {
       <h2>Di cosa mi occupo</h2>
       <div>
         <h3>
+          <div></div>
           <span aria-hidden={true}> 💻</span> Sviluppo
         </h3>
         <p>
@@ -61,28 +62,6 @@ export const Servizi = () => {
         </p>
         <Stack />
         <div className="flex flex-row items-center mt-10">
-          <svg
-            aria-hidden={true}
-            className="hidden md:flex mr-4"
-            width="21"
-            height="59"
-            viewBox="0 0 21 50"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.73256 29.8356C6.93671 22.9623 4.80505 16.2679 3.14057 9.56938C2.60922 7.43103 1.99773 5.26357 1.75878 3.06522C1.70648 2.584 1.4484 1.21089 1.71691 1.61365C2.32789 2.53012 4.98397 2.36782 5.89018 2.4511C9.49116 2.782 13.1094 2.70233 16.7211 2.70233C17.0521 2.70233 18.6969 2.36185 18.4937 2.86982C17.9998 4.10458 17.0064 5.21368 16.4141 6.41501C14.6089 10.076 13.2379 13.9631 12.0454 17.8601C10.0239 24.4662 8.7375 31.2126 8.7375 38.1263"
-              stroke="black"
-              strokeWidth="3"
-              strokeLinecap="round"
-            />
-            <path
-              d="M6.73746 46.1608C5.57652 47.8265 7.46281 48.4219 8.99856 48.4219C10.32 48.4219 11.3524 48.5355 12.1529 47.2774C14.39 43.7621 7.49731 41.6079 6.98869 44.151"
-              stroke="black"
-              strokeWidth="3"
-              strokeLinecap="round"
-            />
-          </svg>
           <h3 className="block font-lg">Sono disponibile per</h3>
         </div>
         <div className="mt-4">
@@ -100,6 +79,47 @@ export const Servizi = () => {
           </div>
           <div>
             <p> 🤝 collaborazioni con aziende e freelance</p>
+          </div>
+          <div className="flex flex-row items-center mt-10">
+            <svg
+              aria-hidden={true}
+              className="hidden md:flex mr-4"
+              width="21"
+              height="59"
+              viewBox="0 0 21 50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.73256 29.8356C6.93671 22.9623 4.80505 16.2679 3.14057 9.56938C2.60922 7.43103 1.99773 5.26357 1.75878 3.06522C1.70648 2.584 1.4484 1.21089 1.71691 1.61365C2.32789 2.53012 4.98397 2.36782 5.89018 2.4511C9.49116 2.782 13.1094 2.70233 16.7211 2.70233C17.0521 2.70233 18.6969 2.36185 18.4937 2.86982C17.9998 4.10458 17.0064 5.21368 16.4141 6.41501C14.6089 10.076 13.2379 13.9631 12.0454 17.8601C10.0239 24.4662 8.7375 31.2126 8.7375 38.1263"
+                stroke="black"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+              <path
+                d="M6.73746 46.1608C5.57652 47.8265 7.46281 48.4219 8.99856 48.4219C10.32 48.4219 11.3524 48.5355 12.1529 47.2774C14.39 43.7621 7.49731 41.6079 6.98869 44.151"
+                stroke="black"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+            </svg>
+            <p className="block">
+              Ho avviato da poco <b>Inclusio</b>, un progetto legato al tema
+              dell'<b>inclusione</b> e dell'<b>accessibilità</b>. Ancora è in
+              fase di lancio, quindi non troverai ancora dei veri contenuti...
+              ma puoi iscriverti alla nostra mailling list per ricevere tutti i
+              nostri aggiornamenti. Ti assicuro che non riceverai spam!
+            </p>
+          </div>
+          <div className="flex flex-row content-center justify-center mt-10">
+            <a
+              href="http://inclusio.it/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-6 py-2 bg-black text-white border-solid border-2 border-black flex items-center text-lg hover:bg-white hover:text-black cursor-pointer"
+            >
+              Visita il sito di Inclusio
+            </a>
           </div>
         </div>
       </div>

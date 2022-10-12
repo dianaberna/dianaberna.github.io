@@ -72,12 +72,6 @@ export const COMMUNITY = [
     link: 'https://www.theredcode.it/',
   },
   {
-    file: 'tomorrowdevs.png',
-    fileCompr: 'tomorrowdevs.webp',
-    name: 'TomorrowDevs',
-    link: 'https://www.tomorrowdevs.com/',
-  },
-  {
     file: 'ugidotnet.png',
     fileCompr: 'ugidotnet.webp',
     name: 'UGIdotNET',

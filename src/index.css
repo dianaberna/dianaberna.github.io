@@ -20,9 +20,9 @@ h3 {
   @apply text-2xl font-bold mt-2 mb-2;
 }
 p, span, li {
-  @apply tracking-wider text-lg font-light;
+  @apply tracking-wider text-lg font-light !leading-normal;
 }
-a, button{
+a, button, input{
   @apply focus:outline-black focus:outline-dashed focus:outline-offset-2 focus:outline-2;
 }
 button{
