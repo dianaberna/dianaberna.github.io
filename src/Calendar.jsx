@@ -10,17 +10,14 @@ const Calendar = () => {
           <div className="border-solid border-2 border-black w-[5px] h-[20px] bg-black -mt-6 absolute right-[20px]">
             {' '}
           </div>
-          <div className="text-2xl font-bold">17-18-19 Ottobre</div>
-          <div className="text-lg">
-            WPC 22 - La più importante conferenza italiana sulle tecnologie
-            Microsoft
-          </div>
+          <div className="text-2xl font-bold">19 - 20 Novembre</div>
+          <div className="text-lg">Devfest Pescara 2022</div>
           <div className="font-light my-2">
-            Talk: Una introduzione all'accessibilità
+            Talk: Componenti accessibili per un frontend inclusivo
           </div>
           <a
             className="underline"
-            href="https://www.wpc2022.it/"
+            href="https://devfest.gdgpescara.it/"
             target="_blank"
             rel="noreferrer"
           >
