@@ -1,17 +1,21 @@
 import React, { useState, Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
-const Login = lazy(() => import('./pages/Login'))
-const CreatePost = lazy(() => import('./pages/CreatePost'))
-const UpdatePost = lazy(() => import('./pages/UpdatePost'))
+const Login = lazy(() => import('./components/BlogAdministration/Login'))
+const CreatePost = lazy(() =>
+  import('./components/BlogAdministration/CreatePost')
+)
+const UpdatePost = lazy(() =>
+  import('./components/BlogAdministration/UpdatePost')
+)
 
-const About = lazy(() => import('./About'))
-const Blog = lazy(() => import('./Blog'))
-const Footer = lazy(() => import('./Footer'))
-const Home = lazy(() => import('./Home'))
-const Navbar = lazy(() => import('./Navbar'))
-const Post = lazy(() => import('./Post'))
-const Talks = lazy(() => import('./Talks'))
+const About = lazy(() => import('./components/About'))
+const Blog = lazy(() => import('./components/Blog'))
+const Footer = lazy(() => import('./components/Footer'))
+const Main = lazy(() => import('./components/Main'))
+const Navbar = lazy(() => import('./components/Navbar'))
+const Post = lazy(() => import('./components/Post'))
+const Talks = lazy(() => import('./components/Talks'))
 
 import './index.css'
 import { signOut } from 'firebase/auth'
@@ -42,7 +46,8 @@ export default function App() {
           <nav className="text-black flex flex-col md:flex-row justify-between items-center">
             <div>
               <Link to="/">
-                <h1 aria-label="Diana Bernabei">🏳️‍🌈{` <D/> `}🏳️‍🌈</h1>
+                {/* <h1 aria-label="Diana Bernabei">🏳️‍🌈{` <D/> `}🏳️‍🌈</h1> */}
+                <h1 aria-label="Diana Bernabei">{` <D/> `}</h1>
               </Link>
             </div>
             <Navbar />
@@ -61,7 +66,7 @@ export default function App() {
             )}
           </div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Main />} />
             <Route path="/blog" element={<Blog isAuth={isAuth} />} />
             <Route path="/blog/:id/:slug" element={<Post isAuth={isAuth} />} />
             <Route path="/chisono" element={<About />} />
