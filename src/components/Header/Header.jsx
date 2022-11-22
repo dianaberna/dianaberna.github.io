@@ -1,5 +1,5 @@
-import { Contatti } from '../Contacts/Contacts'
-import Social from '../Social'
+import Social from 'Components/Social'
+import Contacts from 'Components/Contacts'
 
 const Header = () => {
   return (
@@ -35,7 +35,7 @@ const Header = () => {
           />
         </svg>
         <div id="contatti">
-          <Contatti />
+          <Contacts />
         </div>
         <svg
           aria-hidden={true}

@@ -1,4 +1,4 @@
-export const Contatti = () => {
+const Contacts = () => {
   return (
     <div className="flex flex-row gap-4">
       <form action="mailto:bernabei.d@gmail.com">
@@ -18,3 +18,5 @@ export const Contatti = () => {
     </div>
   )
 }
+
+export default Contacts
