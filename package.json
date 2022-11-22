@@ -26,7 +26,8 @@
     "dev": "npm run css && GENERATE_SOURCEMAP=false react-scripts build --stats && npm run analyze",
     "lint": "eslint --fix --ext .js,.jsx ./src/ --ignore-pattern node_modules/",
     "css": "postcss ./src/index.css -o public/output.css",
-    "analyze": "webpack-bundle-analyzer build/bundle-stats.json"
+    "analyze": "webpack-bundle-analyzer build/bundle-stats.json",
+    "eject" : "react-scripts eject"
   },
   "browserslist": {
     "production": [
